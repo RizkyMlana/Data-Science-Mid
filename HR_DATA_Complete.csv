@@ -1,0 +1,1001 @@
+RequestID,EmpID,EmpName,Dept,Request_Date,Completion_Date,Request_Detail,PIC,Processing Days,SLA Compliance
+REQ0001,103,Charlie Davis,HR,2024-01-01,2024-01-09,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0002,103,Charlie Davis,HR,2024-01-01,2024-01-02,Access Approval,John Manager,1,Pass
+REQ0003,105,Eve Wilson,HR,2024-01-01,2024-01-03,Access Approval,John Manager,2,Pass
+REQ0004,104,David Brown,HR,2024-01-02,2024-01-10,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0005,102,Bob Smith,HR,2024-01-02,2024-01-04,Benefit Claim,John Manager,2,Pass
+REQ0006,105,Eve Wilson,HR,2024-01-03,2024-01-08,Benefit Claim,John Manager,3,Pass
+REQ0007,101,Alice Johnson,HR,2024-01-03,2024-01-10,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0008,103,Charlie Davis,HR,2024-01-03,2024-01-10,Payroll Issue,John Manager,5,Miss
+REQ0009,105,Eve Wilson,HR,2024-01-03,2024-01-05,Benefit Claim,John Manager,2,Pass
+REQ0010,102,Bob Smith,HR,2024-01-03,2024-01-04,ID Card Replacement,John Manager,1,Pass
+REQ0011,104,David Brown,HR,2024-01-04,2024-01-12,Benefit Claim,Michael Lead,6,Miss
+REQ0012,105,Eve Wilson,HR,2024-01-06,2024-01-16,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0013,104,David Brown,HR,2024-01-06,2024-01-16,Access Approval,Sarah Supervisor,6,Miss
+REQ0014,103,Charlie Davis,HR,2024-01-06,2024-01-12,ID Card Replacement,Michael Lead,4,Miss
+REQ0015,102,Bob Smith,HR,2024-01-10,2024-01-12,Benefit Claim,John Manager,2,Pass
+REQ0016,103,Charlie Davis,HR,2024-01-10,2024-01-13,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0017,105,Eve Wilson,HR,2024-01-11,2024-01-12,ID Card Replacement,John Manager,1,Pass
+REQ0018,104,David Brown,HR,2024-01-11,2024-01-12,ID Card Replacement,Michael Lead,1,Pass
+REQ0019,105,Eve Wilson,HR,2024-01-12,2024-01-13,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0020,102,Bob Smith,HR,2024-01-12,2024-01-19,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0021,102,Bob Smith,HR,2024-01-12,2024-01-19,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0022,104,David Brown,HR,2024-01-13,2024-01-15,Access Approval,John Manager,0,Pass
+REQ0023,104,David Brown,HR,2024-01-13,2024-01-19,Payroll Issue,John Manager,4,Miss
+REQ0024,102,Bob Smith,HR,2024-01-14,2024-01-20,Access Approval,Michael Lead,5,Miss
+REQ0025,105,Eve Wilson,HR,2024-01-14,2024-01-20,Benefit Claim,Michael Lead,5,Miss
+REQ0026,103,Charlie Davis,HR,2024-01-14,2024-01-15,ID Card Replacement,Michael Lead,0,Pass
+REQ0027,101,Alice Johnson,HR,2024-01-14,2024-01-19,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0028,104,David Brown,HR,2024-01-14,2024-01-21,Benefit Claim,Michael Lead,5,Miss
+REQ0029,103,Charlie Davis,HR,2024-01-14,2024-01-21,Benefit Claim,John Manager,5,Miss
+REQ0030,104,David Brown,HR,2024-01-15,2024-01-23,ID Card Replacement,John Manager,6,Miss
+REQ0031,102,Bob Smith,HR,2024-01-16,2024-01-23,Access Approval,Sarah Supervisor,5,Miss
+REQ0032,102,Bob Smith,HR,2024-01-16,2024-01-25,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0033,103,Charlie Davis,HR,2024-01-16,2024-01-22,Access Approval,John Manager,4,Miss
+REQ0034,105,Eve Wilson,HR,2024-01-16,2024-01-25,Payroll Issue,Michael Lead,7,Miss
+REQ0035,103,Charlie Davis,HR,2024-01-16,2024-01-19,Benefit Claim,Michael Lead,3,Pass
+REQ0036,101,Alice Johnson,HR,2024-01-17,2024-01-23,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0037,101,Alice Johnson,HR,2024-01-17,2024-01-24,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0038,103,Charlie Davis,HR,2024-01-18,2024-01-22,Benefit Claim,Michael Lead,2,Pass
+REQ0039,103,Charlie Davis,HR,2024-01-18,2024-01-24,ID Card Replacement,John Manager,4,Miss
+REQ0040,102,Bob Smith,HR,2024-01-18,2024-01-28,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0041,101,Alice Johnson,HR,2024-01-18,2024-01-28,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0042,104,David Brown,HR,2024-01-18,2024-01-19,Benefit Claim,John Manager,1,Pass
+REQ0043,102,Bob Smith,HR,2024-01-19,2024-01-26,ID Card Replacement,John Manager,5,Miss
+REQ0044,102,Bob Smith,HR,2024-01-19,2024-01-21,Access Approval,Sarah Supervisor,1,Pass
+REQ0045,104,David Brown,HR,2024-01-19,2024-01-22,Benefit Claim,John Manager,1,Pass
+REQ0046,101,Alice Johnson,HR,2024-01-20,2024-01-28,ID Card Replacement,John Manager,5,Miss
+REQ0047,104,David Brown,HR,2024-01-20,2024-01-24,Benefit Claim,John Manager,2,Pass
+REQ0048,105,Eve Wilson,HR,2024-01-20,2024-01-22,Access Approval,Michael Lead,0,Pass
+REQ0049,101,Alice Johnson,HR,2024-01-20,2024-01-21,Benefit Claim,Sarah Supervisor,0,Pass
+REQ0050,105,Eve Wilson,HR,2024-01-22,2024-01-27,Access Approval,John Manager,5,Miss
+REQ0051,104,David Brown,HR,2024-01-22,2024-01-23,Payroll Issue,John Manager,1,Pass
+REQ0052,103,Charlie Davis,HR,2024-01-22,2024-01-30,ID Card Replacement,Michael Lead,6,Miss
+REQ0053,103,Charlie Davis,HR,2024-01-23,2024-01-31,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0054,103,Charlie Davis,HR,2024-01-24,2024-01-29,Access Approval,Michael Lead,3,Pass
+REQ0055,103,Charlie Davis,HR,2024-01-24,2024-02-02,ID Card Replacement,John Manager,7,Miss
+REQ0056,103,Charlie Davis,HR,2024-01-24,2024-01-31,Access Approval,Michael Lead,5,Miss
+REQ0057,103,Charlie Davis,HR,2024-01-24,2024-01-27,Access Approval,Michael Lead,3,Pass
+REQ0058,102,Bob Smith,HR,2024-01-25,2024-01-31,Access Approval,Michael Lead,4,Miss
+REQ0059,101,Alice Johnson,HR,2024-01-25,2024-02-01,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0060,102,Bob Smith,HR,2024-01-26,2024-02-05,Access Approval,John Manager,6,Miss
+REQ0061,103,Charlie Davis,HR,2024-01-26,2024-01-29,Payroll Issue,John Manager,1,Pass
+REQ0062,103,Charlie Davis,HR,2024-01-26,2024-02-03,ID Card Replacement,Michael Lead,6,Miss
+REQ0063,102,Bob Smith,HR,2024-01-26,2024-02-01,Benefit Claim,John Manager,4,Miss
+REQ0064,104,David Brown,HR,2024-01-27,2024-02-01,Access Approval,John Manager,3,Pass
+REQ0065,101,Alice Johnson,HR,2024-01-28,2024-02-04,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0066,103,Charlie Davis,HR,2024-01-28,2024-02-01,Benefit Claim,John Manager,3,Pass
+REQ0067,101,Alice Johnson,HR,2024-01-29,2024-02-03,Benefit Claim,John Manager,5,Miss
+REQ0068,101,Alice Johnson,HR,2024-01-29,2024-02-03,Benefit Claim,John Manager,5,Miss
+REQ0069,103,Charlie Davis,HR,2024-01-29,2024-02-06,Payroll Issue,Michael Lead,6,Miss
+REQ0070,103,Charlie Davis,HR,2024-01-30,2024-02-08,Payroll Issue,John Manager,7,Miss
+REQ0071,101,Alice Johnson,HR,2024-01-30,2024-02-09,Benefit Claim,John Manager,8,Miss
+REQ0072,103,Charlie Davis,HR,2024-01-31,2024-02-04,Access Approval,Michael Lead,3,Pass
+REQ0073,101,Alice Johnson,HR,2024-01-31,2024-02-10,Access Approval,Michael Lead,8,Miss
+REQ0074,101,Alice Johnson,HR,2024-01-31,2024-02-05,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0075,104,David Brown,HR,2024-02-01,2024-02-04,Access Approval,Sarah Supervisor,2,Pass
+REQ0076,101,Alice Johnson,HR,2024-02-01,2024-02-11,Benefit Claim,John Manager,7,Miss
+REQ0077,105,Eve Wilson,HR,2024-02-01,2024-02-08,ID Card Replacement,John Manager,5,Miss
+REQ0078,101,Alice Johnson,HR,2024-02-01,2024-02-02,Payroll Issue,Michael Lead,1,Pass
+REQ0079,103,Charlie Davis,HR,2024-02-02,2024-02-08,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0080,103,Charlie Davis,HR,2024-02-02,2024-02-09,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0081,104,David Brown,HR,2024-02-03,2024-02-13,Access Approval,Michael Lead,6,Miss
+REQ0082,102,Bob Smith,HR,2024-02-03,2024-02-11,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0083,104,David Brown,HR,2024-02-04,2024-02-09,Benefit Claim,Michael Lead,4,Miss
+REQ0084,105,Eve Wilson,HR,2024-02-04,2024-02-06,Access Approval,John Manager,1,Pass
+REQ0085,105,Eve Wilson,HR,2024-02-05,2024-02-11,Payroll Issue,John Manager,5,Miss
+REQ0086,102,Bob Smith,HR,2024-02-06,2024-02-08,Access Approval,Sarah Supervisor,2,Pass
+REQ0087,104,David Brown,HR,2024-02-06,2024-02-10,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0088,105,Eve Wilson,HR,2024-02-07,2024-02-12,Payroll Issue,Michael Lead,3,Pass
+REQ0089,102,Bob Smith,HR,2024-02-07,2024-02-12,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0090,103,Charlie Davis,HR,2024-02-07,2024-02-08,Payroll Issue,Michael Lead,1,Pass
+REQ0091,103,Charlie Davis,HR,2024-02-08,2024-02-17,Access Approval,Michael Lead,7,Miss
+REQ0092,104,David Brown,HR,2024-02-08,2024-02-14,Payroll Issue,Michael Lead,4,Miss
+REQ0093,101,Alice Johnson,HR,2024-02-08,2024-02-13,Payroll Issue,Michael Lead,3,Pass
+REQ0094,101,Alice Johnson,HR,2024-02-08,2024-02-13,Benefit Claim,John Manager,3,Pass
+REQ0095,102,Bob Smith,HR,2024-02-09,2024-02-12,Access Approval,Michael Lead,1,Pass
+REQ0096,104,David Brown,HR,2024-02-09,2024-02-19,ID Card Replacement,Michael Lead,6,Miss
+REQ0097,102,Bob Smith,HR,2024-02-09,2024-02-10,Payroll Issue,Michael Lead,1,Pass
+REQ0098,103,Charlie Davis,HR,2024-02-10,2024-02-19,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0099,105,Eve Wilson,HR,2024-02-10,2024-02-17,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0100,101,Alice Johnson,HR,2024-02-11,2024-02-16,Access Approval,Sarah Supervisor,4,Miss
+REQ0101,104,David Brown,HR,2024-02-11,2024-02-17,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0102,104,David Brown,HR,2024-02-12,2024-02-17,Payroll Issue,John Manager,5,Miss
+REQ0103,101,Alice Johnson,HR,2024-02-12,2024-02-15,Access Approval,John Manager,3,Pass
+REQ0104,104,David Brown,HR,2024-02-13,2024-02-21,Access Approval,John Manager,6,Miss
+REQ0105,104,David Brown,HR,2024-02-13,2024-02-15,Access Approval,John Manager,2,Pass
+REQ0106,105,Eve Wilson,HR,2024-02-13,2024-02-20,Payroll Issue,John Manager,5,Miss
+REQ0107,101,Alice Johnson,HR,2024-02-14,2024-02-23,Benefit Claim,John Manager,7,Miss
+REQ0108,103,Charlie Davis,HR,2024-02-14,2024-02-20,Access Approval,Michael Lead,4,Miss
+REQ0109,104,David Brown,HR,2024-02-15,2024-02-18,Payroll Issue,Michael Lead,2,Pass
+REQ0110,104,David Brown,HR,2024-02-15,2024-02-21,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0111,103,Charlie Davis,HR,2024-02-15,2024-02-17,ID Card Replacement,Michael Lead,2,Pass
+REQ0112,104,David Brown,HR,2024-02-15,2024-02-20,Payroll Issue,John Manager,3,Pass
+REQ0113,105,Eve Wilson,HR,2024-02-15,2024-02-18,Payroll Issue,John Manager,2,Pass
+REQ0114,103,Charlie Davis,HR,2024-02-15,2024-02-16,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0115,104,David Brown,HR,2024-02-15,2024-02-21,Benefit Claim,Michael Lead,4,Miss
+REQ0116,101,Alice Johnson,HR,2024-02-16,2024-02-21,Payroll Issue,John Manager,3,Pass
+REQ0117,103,Charlie Davis,HR,2024-02-16,2024-02-21,Access Approval,John Manager,3,Pass
+REQ0118,103,Charlie Davis,HR,2024-02-16,2024-02-26,Benefit Claim,Michael Lead,6,Miss
+REQ0119,105,Eve Wilson,HR,2024-02-17,2024-02-19,Access Approval,John Manager,0,Pass
+REQ0120,103,Charlie Davis,HR,2024-02-17,2024-02-22,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0121,103,Charlie Davis,HR,2024-02-18,2024-02-22,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0122,102,Bob Smith,HR,2024-02-18,2024-02-20,Access Approval,Michael Lead,1,Pass
+REQ0123,103,Charlie Davis,HR,2024-02-19,2024-02-20,ID Card Replacement,John Manager,1,Pass
+REQ0124,101,Alice Johnson,HR,2024-02-20,2024-02-29,Payroll Issue,Michael Lead,7,Miss
+REQ0125,102,Bob Smith,HR,2024-02-20,2024-02-22,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0126,105,Eve Wilson,HR,2024-02-21,2024-02-29,Access Approval,Sarah Supervisor,6,Miss
+REQ0127,103,Charlie Davis,HR,2024-02-21,2024-02-22,Benefit Claim,John Manager,1,Pass
+REQ0128,105,Eve Wilson,HR,2024-02-21,2024-02-25,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0129,101,Alice Johnson,HR,2024-02-22,2024-02-28,Benefit Claim,Michael Lead,4,Miss
+REQ0130,101,Alice Johnson,HR,2024-02-22,2024-02-29,Benefit Claim,Michael Lead,5,Miss
+REQ0131,105,Eve Wilson,HR,2024-02-23,2024-02-28,Access Approval,John Manager,3,Pass
+REQ0132,103,Charlie Davis,HR,2024-02-23,2024-02-25,Access Approval,Sarah Supervisor,1,Pass
+REQ0133,104,David Brown,HR,2024-02-24,2024-02-27,Benefit Claim,Michael Lead,1,Pass
+REQ0134,101,Alice Johnson,HR,2024-02-24,2024-02-27,Access Approval,Michael Lead,1,Pass
+REQ0135,102,Bob Smith,HR,2024-02-25,2024-03-03,Access Approval,John Manager,5,Miss
+REQ0136,103,Charlie Davis,HR,2024-02-25,2024-02-26,Access Approval,Michael Lead,0,Pass
+REQ0137,101,Alice Johnson,HR,2024-02-25,2024-03-06,Access Approval,Michael Lead,7,Miss
+REQ0138,104,David Brown,HR,2024-02-25,2024-03-01,Access Approval,Michael Lead,4,Miss
+REQ0139,103,Charlie Davis,HR,2024-02-26,2024-03-06,Access Approval,Michael Lead,7,Miss
+REQ0140,101,Alice Johnson,HR,2024-02-26,2024-03-06,ID Card Replacement,Sarah Supervisor,7,Miss
+REQ0141,103,Charlie Davis,HR,2024-02-27,2024-03-03,Payroll Issue,Michael Lead,4,Miss
+REQ0142,101,Alice Johnson,HR,2024-02-28,2024-02-29,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0143,101,Alice Johnson,HR,2024-02-28,2024-03-04,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0144,104,David Brown,HR,2024-02-28,2024-03-05,Payroll Issue,John Manager,4,Miss
+REQ0145,102,Bob Smith,HR,2024-03-01,2024-03-10,Access Approval,Sarah Supervisor,6,Miss
+REQ0146,104,David Brown,HR,2024-03-02,2024-03-05,Payroll Issue,John Manager,1,Pass
+REQ0147,102,Bob Smith,HR,2024-03-03,2024-03-05,Payroll Issue,John Manager,1,Pass
+REQ0148,105,Eve Wilson,HR,2024-03-04,2024-03-11,Payroll Issue,Michael Lead,5,Miss
+REQ0149,105,Eve Wilson,HR,2024-03-04,2024-03-14,ID Card Replacement,Michael Lead,8,Miss
+REQ0150,105,Eve Wilson,HR,2024-03-04,2024-03-09,Access Approval,Michael Lead,5,Miss
+REQ0151,102,Bob Smith,HR,2024-03-04,2024-03-13,ID Card Replacement,Michael Lead,7,Miss
+REQ0152,102,Bob Smith,HR,2024-03-05,2024-03-11,Payroll Issue,Michael Lead,4,Miss
+REQ0153,105,Eve Wilson,HR,2024-03-06,2024-03-09,Access Approval,Sarah Supervisor,3,Pass
+REQ0154,101,Alice Johnson,HR,2024-03-06,2024-03-15,ID Card Replacement,John Manager,7,Miss
+REQ0155,102,Bob Smith,HR,2024-03-06,2024-03-07,Access Approval,Michael Lead,1,Pass
+REQ0156,105,Eve Wilson,HR,2024-03-07,2024-03-10,Payroll Issue,John Manager,2,Pass
+REQ0157,104,David Brown,HR,2024-03-07,2024-03-10,ID Card Replacement,John Manager,2,Pass
+REQ0158,104,David Brown,HR,2024-03-07,2024-03-11,Access Approval,Michael Lead,2,Pass
+REQ0159,101,Alice Johnson,HR,2024-03-07,2024-03-12,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0160,104,David Brown,HR,2024-03-07,2024-03-10,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0161,105,Eve Wilson,HR,2024-03-07,2024-03-10,Benefit Claim,Michael Lead,2,Pass
+REQ0162,102,Bob Smith,HR,2024-03-07,2024-03-15,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0163,101,Alice Johnson,HR,2024-03-07,2024-03-10,Payroll Issue,John Manager,2,Pass
+REQ0164,103,Charlie Davis,HR,2024-03-08,2024-03-12,Access Approval,John Manager,2,Pass
+REQ0165,103,Charlie Davis,HR,2024-03-09,2024-03-18,Payroll Issue,Michael Lead,5,Miss
+REQ0166,104,David Brown,HR,2024-03-09,2024-03-10,Access Approval,John Manager,0,Pass
+REQ0167,101,Alice Johnson,HR,2024-03-09,2024-03-19,Access Approval,Sarah Supervisor,6,Miss
+REQ0168,104,David Brown,HR,2024-03-09,2024-03-13,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0169,105,Eve Wilson,HR,2024-03-10,2024-03-18,Access Approval,Sarah Supervisor,5,Miss
+REQ0170,101,Alice Johnson,HR,2024-03-10,2024-03-16,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0171,104,David Brown,HR,2024-03-10,2024-03-17,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0172,105,Eve Wilson,HR,2024-03-10,2024-03-13,Access Approval,Sarah Supervisor,2,Pass
+REQ0173,101,Alice Johnson,HR,2024-03-10,2024-03-20,ID Card Replacement,Michael Lead,7,Miss
+REQ0174,104,David Brown,HR,2024-03-12,2024-03-13,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0175,102,Bob Smith,HR,2024-03-12,2024-03-17,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0176,101,Alice Johnson,HR,2024-03-12,2024-03-21,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0177,102,Bob Smith,HR,2024-03-13,2024-03-15,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0178,102,Bob Smith,HR,2024-03-13,2024-03-22,Benefit Claim,Michael Lead,7,Miss
+REQ0179,102,Bob Smith,HR,2024-03-13,2024-03-18,Benefit Claim,John Manager,3,Pass
+REQ0180,102,Bob Smith,HR,2024-03-14,2024-03-22,ID Card Replacement,Michael Lead,6,Miss
+REQ0181,101,Alice Johnson,HR,2024-03-14,2024-03-19,Payroll Issue,John Manager,3,Pass
+REQ0182,101,Alice Johnson,HR,2024-03-15,2024-03-20,Access Approval,Michael Lead,3,Pass
+REQ0183,101,Alice Johnson,HR,2024-03-15,2024-03-18,Benefit Claim,John Manager,1,Pass
+REQ0184,104,David Brown,HR,2024-03-15,2024-03-20,ID Card Replacement,John Manager,3,Pass
+REQ0185,104,David Brown,HR,2024-03-16,2024-03-17,Access Approval,Sarah Supervisor,0,Pass
+REQ0186,104,David Brown,HR,2024-03-16,2024-03-24,Access Approval,Sarah Supervisor,5,Miss
+REQ0187,104,David Brown,HR,2024-03-16,2024-03-17,Benefit Claim,Michael Lead,0,Pass
+REQ0188,103,Charlie Davis,HR,2024-03-16,2024-03-23,Benefit Claim,John Manager,5,Miss
+REQ0189,105,Eve Wilson,HR,2024-03-17,2024-03-22,Benefit Claim,John Manager,4,Miss
+REQ0190,105,Eve Wilson,HR,2024-03-17,2024-03-19,Access Approval,John Manager,1,Pass
+REQ0191,105,Eve Wilson,HR,2024-03-17,2024-03-18,Benefit Claim,Michael Lead,0,Pass
+REQ0192,102,Bob Smith,HR,2024-03-18,2024-03-23,Access Approval,Sarah Supervisor,5,Miss
+REQ0193,102,Bob Smith,HR,2024-03-18,2024-03-23,Benefit Claim,John Manager,5,Miss
+REQ0194,105,Eve Wilson,HR,2024-03-18,2024-03-25,Payroll Issue,John Manager,5,Miss
+REQ0195,102,Bob Smith,HR,2024-03-19,2024-03-29,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0196,102,Bob Smith,HR,2024-03-19,2024-03-29,ID Card Replacement,Sarah Supervisor,8,Miss
+REQ0197,102,Bob Smith,HR,2024-03-19,2024-03-25,ID Card Replacement,John Manager,4,Miss
+REQ0198,102,Bob Smith,HR,2024-03-20,2024-03-25,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0199,105,Eve Wilson,HR,2024-03-20,2024-03-23,Payroll Issue,Michael Lead,3,Pass
+REQ0200,102,Bob Smith,HR,2024-03-20,2024-03-30,Payroll Issue,Sarah Supervisor,8,Miss
+REQ0201,103,Charlie Davis,HR,2024-03-21,2024-03-24,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0202,104,David Brown,HR,2024-03-21,2024-03-27,Benefit Claim,Michael Lead,4,Miss
+REQ0203,104,David Brown,HR,2024-03-21,2024-03-26,Access Approval,Michael Lead,3,Pass
+REQ0204,102,Bob Smith,HR,2024-03-21,2024-03-27,ID Card Replacement,Michael Lead,4,Miss
+REQ0205,104,David Brown,HR,2024-03-21,2024-03-30,Payroll Issue,John Manager,7,Miss
+REQ0206,105,Eve Wilson,HR,2024-03-22,2024-03-30,Payroll Issue,John Manager,6,Miss
+REQ0207,101,Alice Johnson,HR,2024-03-22,2024-03-27,Access Approval,Michael Lead,3,Pass
+REQ0208,105,Eve Wilson,HR,2024-03-22,2024-03-23,Benefit Claim,Michael Lead,1,Pass
+REQ0209,101,Alice Johnson,HR,2024-03-23,2024-03-24,Access Approval,John Manager,0,Pass
+REQ0210,105,Eve Wilson,HR,2024-03-23,2024-03-24,ID Card Replacement,Michael Lead,0,Pass
+REQ0211,104,David Brown,HR,2024-03-23,2024-03-25,Benefit Claim,John Manager,0,Pass
+REQ0212,103,Charlie Davis,HR,2024-03-24,2024-03-27,Benefit Claim,John Manager,2,Pass
+REQ0213,101,Alice Johnson,HR,2024-03-25,2024-04-02,Access Approval,Michael Lead,6,Miss
+REQ0214,101,Alice Johnson,HR,2024-03-26,2024-04-04,Benefit Claim,John Manager,7,Miss
+REQ0215,103,Charlie Davis,HR,2024-03-26,2024-04-01,Benefit Claim,Michael Lead,4,Miss
+REQ0216,104,David Brown,HR,2024-03-26,2024-03-28,ID Card Replacement,John Manager,2,Pass
+REQ0217,104,David Brown,HR,2024-03-26,2024-03-31,ID Card Replacement,Michael Lead,4,Miss
+REQ0218,105,Eve Wilson,HR,2024-03-27,2024-03-30,Access Approval,Michael Lead,3,Pass
+REQ0219,105,Eve Wilson,HR,2024-03-27,2024-04-01,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0220,102,Bob Smith,HR,2024-03-28,2024-04-05,Access Approval,Sarah Supervisor,6,Miss
+REQ0221,105,Eve Wilson,HR,2024-03-28,2024-03-31,Benefit Claim,John Manager,2,Pass
+REQ0222,104,David Brown,HR,2024-03-28,2024-04-01,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0223,105,Eve Wilson,HR,2024-03-29,2024-04-05,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0224,101,Alice Johnson,HR,2024-03-29,2024-04-04,Access Approval,Michael Lead,4,Miss
+REQ0225,102,Bob Smith,HR,2024-03-30,2024-04-01,Benefit Claim,John Manager,0,Pass
+REQ0226,105,Eve Wilson,HR,2024-03-30,2024-04-09,ID Card Replacement,John Manager,6,Miss
+REQ0227,101,Alice Johnson,HR,2024-03-30,2024-04-02,Access Approval,Michael Lead,1,Pass
+REQ0228,104,David Brown,HR,2024-03-31,2024-04-02,ID Card Replacement,Michael Lead,1,Pass
+REQ0229,105,Eve Wilson,HR,2024-03-31,2024-04-06,ID Card Replacement,John Manager,5,Miss
+REQ0230,101,Alice Johnson,HR,2024-03-31,2024-04-07,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0231,105,Eve Wilson,HR,2024-04-01,2024-04-07,Access Approval,Michael Lead,5,Miss
+REQ0232,102,Bob Smith,HR,2024-04-01,2024-04-05,Access Approval,John Manager,4,Miss
+REQ0233,103,Charlie Davis,HR,2024-04-01,2024-04-06,Benefit Claim,John Manager,5,Miss
+REQ0234,103,Charlie Davis,HR,2024-04-01,2024-04-10,Access Approval,Sarah Supervisor,7,Miss
+REQ0235,102,Bob Smith,HR,2024-04-02,2024-04-05,Benefit Claim,Michael Lead,3,Pass
+REQ0236,103,Charlie Davis,HR,2024-04-02,2024-04-10,Payroll Issue,John Manager,6,Miss
+REQ0237,102,Bob Smith,HR,2024-04-03,2024-04-04,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0238,105,Eve Wilson,HR,2024-04-03,2024-04-06,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0239,105,Eve Wilson,HR,2024-04-04,2024-04-05,ID Card Replacement,John Manager,1,Pass
+REQ0240,104,David Brown,HR,2024-04-04,2024-04-09,Access Approval,Michael Lead,3,Pass
+REQ0241,101,Alice Johnson,HR,2024-04-04,2024-04-06,Access Approval,Sarah Supervisor,2,Pass
+REQ0242,105,Eve Wilson,HR,2024-04-05,2024-04-14,Access Approval,Michael Lead,6,Miss
+REQ0243,101,Alice Johnson,HR,2024-04-05,2024-04-09,ID Card Replacement,John Manager,2,Pass
+REQ0244,105,Eve Wilson,HR,2024-04-06,2024-04-15,Payroll Issue,John Manager,5,Miss
+REQ0245,103,Charlie Davis,HR,2024-04-08,2024-04-09,Access Approval,Sarah Supervisor,1,Pass
+REQ0246,103,Charlie Davis,HR,2024-04-08,2024-04-14,Access Approval,Michael Lead,5,Miss
+REQ0247,101,Alice Johnson,HR,2024-04-08,2024-04-09,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0248,103,Charlie Davis,HR,2024-04-09,2024-04-10,Benefit Claim,John Manager,1,Pass
+REQ0249,105,Eve Wilson,HR,2024-04-09,2024-04-14,Payroll Issue,Michael Lead,4,Miss
+REQ0250,103,Charlie Davis,HR,2024-04-09,2024-04-16,Benefit Claim,Michael Lead,5,Miss
+REQ0251,103,Charlie Davis,HR,2024-04-09,2024-04-18,ID Card Replacement,John Manager,7,Miss
+REQ0252,103,Charlie Davis,HR,2024-04-09,2024-04-11,ID Card Replacement,John Manager,2,Pass
+REQ0253,102,Bob Smith,HR,2024-04-10,2024-04-17,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0254,101,Alice Johnson,HR,2024-04-10,2024-04-11,Access Approval,Sarah Supervisor,1,Pass
+REQ0255,102,Bob Smith,HR,2024-04-11,2024-04-17,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0256,101,Alice Johnson,HR,2024-04-11,2024-04-13,Payroll Issue,John Manager,2,Pass
+REQ0257,102,Bob Smith,HR,2024-04-11,2024-04-13,Payroll Issue,John Manager,2,Pass
+REQ0258,104,David Brown,HR,2024-04-12,2024-04-22,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0259,102,Bob Smith,HR,2024-04-12,2024-04-13,ID Card Replacement,John Manager,1,Pass
+REQ0260,101,Alice Johnson,HR,2024-04-12,2024-04-22,ID Card Replacement,Michael Lead,6,Miss
+REQ0261,104,David Brown,HR,2024-04-13,2024-04-23,Benefit Claim,John Manager,6,Miss
+REQ0262,105,Eve Wilson,HR,2024-04-13,2024-04-20,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0263,101,Alice Johnson,HR,2024-04-13,2024-04-16,Benefit Claim,John Manager,1,Pass
+REQ0264,105,Eve Wilson,HR,2024-04-13,2024-04-21,Access Approval,Sarah Supervisor,5,Miss
+REQ0265,101,Alice Johnson,HR,2024-04-14,2024-04-18,Access Approval,John Manager,3,Pass
+REQ0266,101,Alice Johnson,HR,2024-04-14,2024-04-21,Benefit Claim,John Manager,5,Miss
+REQ0267,105,Eve Wilson,HR,2024-04-15,2024-04-18,Benefit Claim,John Manager,3,Pass
+REQ0268,101,Alice Johnson,HR,2024-04-16,2024-04-23,Access Approval,Sarah Supervisor,5,Miss
+REQ0269,102,Bob Smith,HR,2024-04-16,2024-04-22,Payroll Issue,Michael Lead,4,Miss
+REQ0270,103,Charlie Davis,HR,2024-04-17,2024-04-22,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0271,105,Eve Wilson,HR,2024-04-18,2024-04-23,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0272,105,Eve Wilson,HR,2024-04-18,2024-04-20,Benefit Claim,Michael Lead,2,Pass
+REQ0273,102,Bob Smith,HR,2024-04-18,2024-04-21,ID Card Replacement,John Manager,2,Pass
+REQ0274,105,Eve Wilson,HR,2024-04-19,2024-04-20,ID Card Replacement,Michael Lead,1,Pass
+REQ0275,105,Eve Wilson,HR,2024-04-19,2024-04-23,Access Approval,John Manager,2,Pass
+REQ0276,103,Charlie Davis,HR,2024-04-19,2024-04-28,Benefit Claim,Sarah Supervisor,6,Miss
+REQ0277,102,Bob Smith,HR,2024-04-19,2024-04-22,ID Card Replacement,John Manager,1,Pass
+REQ0278,102,Bob Smith,HR,2024-04-19,2024-04-29,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0279,104,David Brown,HR,2024-04-19,2024-04-22,Access Approval,Michael Lead,1,Pass
+REQ0280,105,Eve Wilson,HR,2024-04-20,2024-04-25,Payroll Issue,Michael Lead,3,Pass
+REQ0281,105,Eve Wilson,HR,2024-04-20,2024-04-24,Payroll Issue,Michael Lead,2,Pass
+REQ0282,105,Eve Wilson,HR,2024-04-21,2024-04-24,Access Approval,John Manager,2,Pass
+REQ0283,104,David Brown,HR,2024-04-21,2024-04-29,ID Card Replacement,Michael Lead,5,Miss
+REQ0284,104,David Brown,HR,2024-04-21,2024-05-01,ID Card Replacement,John Manager,7,Miss
+REQ0285,101,Alice Johnson,HR,2024-04-21,2024-04-26,Benefit Claim,John Manager,4,Miss
+REQ0286,102,Bob Smith,HR,2024-04-21,2024-04-29,Benefit Claim,John Manager,5,Miss
+REQ0287,105,Eve Wilson,HR,2024-04-22,2024-04-26,Access Approval,Michael Lead,4,Miss
+REQ0288,104,David Brown,HR,2024-04-22,2024-04-24,Payroll Issue,John Manager,2,Pass
+REQ0289,101,Alice Johnson,HR,2024-04-22,2024-04-24,Access Approval,Michael Lead,2,Pass
+REQ0290,101,Alice Johnson,HR,2024-04-23,2024-04-24,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0291,102,Bob Smith,HR,2024-04-23,2024-04-30,ID Card Replacement,John Manager,5,Miss
+REQ0292,105,Eve Wilson,HR,2024-04-23,2024-04-28,ID Card Replacement,Michael Lead,4,Miss
+REQ0293,104,David Brown,HR,2024-04-23,2024-04-26,ID Card Replacement,John Manager,3,Pass
+REQ0294,102,Bob Smith,HR,2024-04-23,2024-04-27,Access Approval,Sarah Supervisor,4,Miss
+REQ0295,101,Alice Johnson,HR,2024-04-24,2024-05-04,Benefit Claim,Michael Lead,8,Miss
+REQ0296,105,Eve Wilson,HR,2024-04-26,2024-05-06,Access Approval,Sarah Supervisor,6,Miss
+REQ0297,103,Charlie Davis,HR,2024-04-26,2024-05-02,Benefit Claim,John Manager,4,Miss
+REQ0298,101,Alice Johnson,HR,2024-04-26,2024-05-04,Access Approval,Sarah Supervisor,6,Miss
+REQ0299,105,Eve Wilson,HR,2024-04-26,2024-05-03,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0300,103,Charlie Davis,HR,2024-04-27,2024-04-30,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0301,105,Eve Wilson,HR,2024-04-27,2024-04-28,ID Card Replacement,Michael Lead,0,Pass
+REQ0302,104,David Brown,HR,2024-04-29,2024-05-04,ID Card Replacement,Michael Lead,5,Miss
+REQ0303,104,David Brown,HR,2024-04-29,2024-05-08,Access Approval,Michael Lead,7,Miss
+REQ0304,105,Eve Wilson,HR,2024-04-29,2024-05-04,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0305,102,Bob Smith,HR,2024-04-30,2024-05-01,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0306,104,David Brown,HR,2024-04-30,2024-05-08,ID Card Replacement,Michael Lead,6,Miss
+REQ0307,105,Eve Wilson,HR,2024-04-30,2024-05-06,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0308,104,David Brown,HR,2024-04-30,2024-05-10,Payroll Issue,Sarah Supervisor,8,Miss
+REQ0309,102,Bob Smith,HR,2024-05-01,2024-05-06,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0310,105,Eve Wilson,HR,2024-05-01,2024-05-11,Payroll Issue,Sarah Supervisor,8,Miss
+REQ0311,101,Alice Johnson,HR,2024-05-01,2024-05-05,Access Approval,Sarah Supervisor,3,Pass
+REQ0312,104,David Brown,HR,2024-05-02,2024-05-08,ID Card Replacement,Michael Lead,4,Miss
+REQ0313,104,David Brown,HR,2024-05-02,2024-05-03,ID Card Replacement,John Manager,1,Pass
+REQ0314,105,Eve Wilson,HR,2024-05-02,2024-05-07,Access Approval,John Manager,3,Pass
+REQ0315,102,Bob Smith,HR,2024-05-02,2024-05-12,Payroll Issue,Michael Lead,7,Miss
+REQ0316,105,Eve Wilson,HR,2024-05-03,2024-05-13,Payroll Issue,Michael Lead,6,Miss
+REQ0317,102,Bob Smith,HR,2024-05-03,2024-05-04,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0318,101,Alice Johnson,HR,2024-05-03,2024-05-09,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0319,103,Charlie Davis,HR,2024-05-03,2024-05-06,Payroll Issue,John Manager,1,Pass
+REQ0320,105,Eve Wilson,HR,2024-05-04,2024-05-10,Access Approval,Michael Lead,4,Miss
+REQ0321,104,David Brown,HR,2024-05-04,2024-05-08,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0322,101,Alice Johnson,HR,2024-05-04,2024-05-09,Access Approval,Sarah Supervisor,3,Pass
+REQ0323,105,Eve Wilson,HR,2024-05-04,2024-05-13,Payroll Issue,John Manager,5,Miss
+REQ0324,102,Bob Smith,HR,2024-05-05,2024-05-15,Benefit Claim,John Manager,7,Miss
+REQ0325,102,Bob Smith,HR,2024-05-05,2024-05-13,Benefit Claim,John Manager,5,Miss
+REQ0326,104,David Brown,HR,2024-05-05,2024-05-08,Payroll Issue,Michael Lead,2,Pass
+REQ0327,102,Bob Smith,HR,2024-05-05,2024-05-12,Benefit Claim,John Manager,5,Miss
+REQ0328,104,David Brown,HR,2024-05-05,2024-05-07,Payroll Issue,John Manager,1,Pass
+REQ0329,104,David Brown,HR,2024-05-05,2024-05-07,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0330,104,David Brown,HR,2024-05-05,2024-05-07,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0331,102,Bob Smith,HR,2024-05-07,2024-05-17,Access Approval,John Manager,8,Miss
+REQ0332,102,Bob Smith,HR,2024-05-08,2024-05-10,Access Approval,John Manager,2,Pass
+REQ0333,102,Bob Smith,HR,2024-05-09,2024-05-10,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0334,104,David Brown,HR,2024-05-09,2024-05-10,Benefit Claim,Michael Lead,1,Pass
+REQ0335,104,David Brown,HR,2024-05-10,2024-05-17,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0336,104,David Brown,HR,2024-05-10,2024-05-20,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0337,103,Charlie Davis,HR,2024-05-10,2024-05-13,Benefit Claim,Michael Lead,1,Pass
+REQ0338,105,Eve Wilson,HR,2024-05-10,2024-05-16,Access Approval,Michael Lead,4,Miss
+REQ0339,102,Bob Smith,HR,2024-05-10,2024-05-13,Access Approval,John Manager,1,Pass
+REQ0340,102,Bob Smith,HR,2024-05-10,2024-05-16,Payroll Issue,Michael Lead,4,Miss
+REQ0341,104,David Brown,HR,2024-05-11,2024-05-16,Access Approval,John Manager,3,Pass
+REQ0342,103,Charlie Davis,HR,2024-05-11,2024-05-12,ID Card Replacement,Sarah Supervisor,0,Pass
+REQ0343,101,Alice Johnson,HR,2024-05-11,2024-05-14,ID Card Replacement,Michael Lead,1,Pass
+REQ0344,103,Charlie Davis,HR,2024-05-11,2024-05-20,Benefit Claim,Michael Lead,5,Miss
+REQ0345,104,David Brown,HR,2024-05-12,2024-05-20,Benefit Claim,John Manager,5,Miss
+REQ0346,102,Bob Smith,HR,2024-05-13,2024-05-22,Access Approval,John Manager,7,Miss
+REQ0347,103,Charlie Davis,HR,2024-05-13,2024-05-20,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0348,101,Alice Johnson,HR,2024-05-14,2024-05-20,Access Approval,John Manager,4,Miss
+REQ0349,105,Eve Wilson,HR,2024-05-14,2024-05-16,Benefit Claim,Michael Lead,2,Pass
+REQ0350,103,Charlie Davis,HR,2024-05-14,2024-05-20,ID Card Replacement,John Manager,4,Miss
+REQ0351,105,Eve Wilson,HR,2024-05-14,2024-05-20,ID Card Replacement,Michael Lead,4,Miss
+REQ0352,104,David Brown,HR,2024-05-15,2024-05-16,Access Approval,Sarah Supervisor,1,Pass
+REQ0353,101,Alice Johnson,HR,2024-05-15,2024-05-17,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0354,104,David Brown,HR,2024-05-15,2024-05-16,Benefit Claim,John Manager,1,Pass
+REQ0355,103,Charlie Davis,HR,2024-05-16,2024-05-18,Access Approval,Michael Lead,2,Pass
+REQ0356,102,Bob Smith,HR,2024-05-16,2024-05-24,Access Approval,Sarah Supervisor,6,Miss
+REQ0357,103,Charlie Davis,HR,2024-05-16,2024-05-20,Benefit Claim,John Manager,2,Pass
+REQ0358,105,Eve Wilson,HR,2024-05-17,2024-05-19,Access Approval,Michael Lead,1,Pass
+REQ0359,101,Alice Johnson,HR,2024-05-17,2024-05-27,Payroll Issue,John Manager,6,Miss
+REQ0360,105,Eve Wilson,HR,2024-05-18,2024-05-20,Payroll Issue,Sarah Supervisor,0,Pass
+REQ0361,104,David Brown,HR,2024-05-18,2024-05-24,Benefit Claim,John Manager,4,Miss
+REQ0362,105,Eve Wilson,HR,2024-05-18,2024-05-24,Benefit Claim,Michael Lead,4,Miss
+REQ0363,101,Alice Johnson,HR,2024-05-19,2024-05-29,Payroll Issue,John Manager,7,Miss
+REQ0364,103,Charlie Davis,HR,2024-05-21,2024-05-22,Access Approval,Sarah Supervisor,1,Pass
+REQ0365,101,Alice Johnson,HR,2024-05-21,2024-05-30,Payroll Issue,Michael Lead,7,Miss
+REQ0366,105,Eve Wilson,HR,2024-05-22,2024-05-27,Payroll Issue,John Manager,3,Pass
+REQ0367,102,Bob Smith,HR,2024-05-22,2024-05-25,Access Approval,Michael Lead,3,Pass
+REQ0368,104,David Brown,HR,2024-05-22,2024-05-30,ID Card Replacement,Michael Lead,6,Miss
+REQ0369,102,Bob Smith,HR,2024-05-22,2024-05-23,Benefit Claim,John Manager,1,Pass
+REQ0370,101,Alice Johnson,HR,2024-05-22,2024-05-30,ID Card Replacement,Michael Lead,6,Miss
+REQ0371,102,Bob Smith,HR,2024-05-23,2024-05-26,Payroll Issue,John Manager,2,Pass
+REQ0372,101,Alice Johnson,HR,2024-05-24,2024-05-30,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0373,104,David Brown,HR,2024-05-24,2024-05-31,Access Approval,Sarah Supervisor,5,Miss
+REQ0374,104,David Brown,HR,2024-05-25,2024-05-27,ID Card Replacement,John Manager,0,Pass
+REQ0375,104,David Brown,HR,2024-05-25,2024-06-03,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0376,105,Eve Wilson,HR,2024-05-25,2024-05-26,Benefit Claim,John Manager,0,Pass
+REQ0377,101,Alice Johnson,HR,2024-05-26,2024-06-02,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0378,104,David Brown,HR,2024-05-26,2024-06-04,ID Card Replacement,John Manager,6,Miss
+REQ0379,103,Charlie Davis,HR,2024-05-27,2024-06-04,Benefit Claim,Michael Lead,6,Miss
+REQ0380,104,David Brown,HR,2024-05-27,2024-06-02,Benefit Claim,Michael Lead,5,Miss
+REQ0381,102,Bob Smith,HR,2024-05-28,2024-06-03,Benefit Claim,Michael Lead,4,Miss
+REQ0382,103,Charlie Davis,HR,2024-05-28,2024-05-31,ID Card Replacement,Michael Lead,3,Pass
+REQ0383,102,Bob Smith,HR,2024-05-29,2024-06-07,Benefit Claim,Michael Lead,7,Miss
+REQ0384,103,Charlie Davis,HR,2024-05-29,2024-06-01,Benefit Claim,John Manager,3,Pass
+REQ0385,102,Bob Smith,HR,2024-05-30,2024-06-09,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0386,103,Charlie Davis,HR,2024-05-30,2024-06-03,Payroll Issue,Michael Lead,2,Pass
+REQ0387,105,Eve Wilson,HR,2024-05-31,2024-06-01,ID Card Replacement,John Manager,1,Pass
+REQ0388,105,Eve Wilson,HR,2024-05-31,2024-06-06,Benefit Claim,Michael Lead,4,Miss
+REQ0389,104,David Brown,HR,2024-05-31,2024-06-06,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0390,105,Eve Wilson,HR,2024-05-31,2024-06-10,ID Card Replacement,Michael Lead,6,Miss
+REQ0391,105,Eve Wilson,HR,2024-06-01,2024-06-05,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0392,105,Eve Wilson,HR,2024-06-02,2024-06-06,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0393,101,Alice Johnson,HR,2024-06-02,2024-06-11,Access Approval,Michael Lead,6,Miss
+REQ0394,101,Alice Johnson,HR,2024-06-03,2024-06-12,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0395,102,Bob Smith,HR,2024-06-03,2024-06-08,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0396,101,Alice Johnson,HR,2024-06-03,2024-06-11,Benefit Claim,Michael Lead,6,Miss
+REQ0397,103,Charlie Davis,HR,2024-06-03,2024-06-09,Access Approval,Michael Lead,5,Miss
+REQ0398,104,David Brown,HR,2024-06-04,2024-06-10,Access Approval,Michael Lead,4,Miss
+REQ0399,105,Eve Wilson,HR,2024-06-04,2024-06-14,Payroll Issue,John Manager,8,Miss
+REQ0400,103,Charlie Davis,HR,2024-06-05,2024-06-07,Access Approval,Sarah Supervisor,2,Pass
+REQ0401,104,David Brown,HR,2024-06-05,2024-06-07,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0402,101,Alice Johnson,HR,2024-06-05,2024-06-09,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0403,104,David Brown,HR,2024-06-05,2024-06-12,Access Approval,John Manager,5,Miss
+REQ0404,105,Eve Wilson,HR,2024-06-05,2024-06-13,Benefit Claim,Michael Lead,6,Miss
+REQ0405,104,David Brown,HR,2024-06-05,2024-06-10,Benefit Claim,John Manager,3,Pass
+REQ0406,103,Charlie Davis,HR,2024-06-06,2024-06-09,Benefit Claim,Michael Lead,2,Pass
+REQ0407,102,Bob Smith,HR,2024-06-06,2024-06-10,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0408,105,Eve Wilson,HR,2024-06-06,2024-06-11,ID Card Replacement,Michael Lead,3,Pass
+REQ0409,101,Alice Johnson,HR,2024-06-06,2024-06-15,Access Approval,Michael Lead,7,Miss
+REQ0410,104,David Brown,HR,2024-06-07,2024-06-08,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0411,105,Eve Wilson,HR,2024-06-08,2024-06-14,Access Approval,Michael Lead,4,Miss
+REQ0412,102,Bob Smith,HR,2024-06-08,2024-06-17,Access Approval,John Manager,5,Miss
+REQ0413,101,Alice Johnson,HR,2024-06-09,2024-06-17,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0414,105,Eve Wilson,HR,2024-06-10,2024-06-19,Access Approval,Sarah Supervisor,7,Miss
+REQ0415,105,Eve Wilson,HR,2024-06-10,2024-06-12,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0416,102,Bob Smith,HR,2024-06-10,2024-06-15,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0417,104,David Brown,HR,2024-06-11,2024-06-14,Access Approval,Sarah Supervisor,3,Pass
+REQ0418,103,Charlie Davis,HR,2024-06-11,2024-06-13,Payroll Issue,John Manager,2,Pass
+REQ0419,104,David Brown,HR,2024-06-12,2024-06-15,Payroll Issue,Michael Lead,3,Pass
+REQ0420,101,Alice Johnson,HR,2024-06-12,2024-06-15,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0421,101,Alice Johnson,HR,2024-06-13,2024-06-15,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0422,104,David Brown,HR,2024-06-13,2024-06-22,ID Card Replacement,Michael Lead,7,Miss
+REQ0423,101,Alice Johnson,HR,2024-06-13,2024-06-19,Access Approval,Sarah Supervisor,4,Miss
+REQ0424,105,Eve Wilson,HR,2024-06-13,2024-06-21,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0425,101,Alice Johnson,HR,2024-06-13,2024-06-18,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0426,104,David Brown,HR,2024-06-14,2024-06-22,Access Approval,John Manager,6,Miss
+REQ0427,104,David Brown,HR,2024-06-14,2024-06-21,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0428,105,Eve Wilson,HR,2024-06-14,2024-06-16,Benefit Claim,Michael Lead,1,Pass
+REQ0429,102,Bob Smith,HR,2024-06-15,2024-06-21,ID Card Replacement,John Manager,4,Miss
+REQ0430,105,Eve Wilson,HR,2024-06-15,2024-06-24,Payroll Issue,John Manager,5,Miss
+REQ0431,105,Eve Wilson,HR,2024-06-15,2024-06-22,Payroll Issue,Michael Lead,5,Miss
+REQ0432,103,Charlie Davis,HR,2024-06-15,2024-06-21,Access Approval,Michael Lead,4,Miss
+REQ0433,102,Bob Smith,HR,2024-06-15,2024-06-20,Access Approval,John Manager,3,Pass
+REQ0434,103,Charlie Davis,HR,2024-06-16,2024-06-19,Payroll Issue,John Manager,2,Pass
+REQ0435,104,David Brown,HR,2024-06-17,2024-06-19,Benefit Claim,John Manager,2,Pass
+REQ0436,101,Alice Johnson,HR,2024-06-17,2024-06-18,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0437,102,Bob Smith,HR,2024-06-17,2024-06-21,Access Approval,Sarah Supervisor,4,Miss
+REQ0438,101,Alice Johnson,HR,2024-06-17,2024-06-23,Benefit Claim,Michael Lead,5,Miss
+REQ0439,104,David Brown,HR,2024-06-18,2024-06-20,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0440,103,Charlie Davis,HR,2024-06-19,2024-06-26,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0441,104,David Brown,HR,2024-06-19,2024-06-29,Payroll Issue,John Manager,8,Miss
+REQ0442,101,Alice Johnson,HR,2024-06-20,2024-06-21,Payroll Issue,Michael Lead,1,Pass
+REQ0443,104,David Brown,HR,2024-06-20,2024-06-24,Payroll Issue,Michael Lead,2,Pass
+REQ0444,104,David Brown,HR,2024-06-20,2024-06-30,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0445,103,Charlie Davis,HR,2024-06-20,2024-06-21,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0446,104,David Brown,HR,2024-06-20,2024-06-21,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0447,101,Alice Johnson,HR,2024-06-20,2024-06-21,Benefit Claim,Michael Lead,1,Pass
+REQ0448,101,Alice Johnson,HR,2024-06-20,2024-06-26,Access Approval,Sarah Supervisor,4,Miss
+REQ0449,104,David Brown,HR,2024-06-20,2024-06-27,Payroll Issue,John Manager,5,Miss
+REQ0450,101,Alice Johnson,HR,2024-06-20,2024-06-21,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0451,101,Alice Johnson,HR,2024-06-21,2024-06-24,Access Approval,Michael Lead,1,Pass
+REQ0452,104,David Brown,HR,2024-06-21,2024-06-26,Access Approval,John Manager,3,Pass
+REQ0453,102,Bob Smith,HR,2024-06-22,2024-06-25,Payroll Issue,John Manager,1,Pass
+REQ0454,103,Charlie Davis,HR,2024-06-22,2024-06-27,Access Approval,John Manager,3,Pass
+REQ0455,104,David Brown,HR,2024-06-22,2024-06-28,Benefit Claim,John Manager,4,Miss
+REQ0456,104,David Brown,HR,2024-06-22,2024-06-23,Payroll Issue,Michael Lead,0,Pass
+REQ0457,102,Bob Smith,HR,2024-06-23,2024-06-29,Payroll Issue,John Manager,5,Miss
+REQ0458,105,Eve Wilson,HR,2024-06-23,2024-06-25,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0459,102,Bob Smith,HR,2024-06-23,2024-06-30,ID Card Replacement,John Manager,5,Miss
+REQ0460,105,Eve Wilson,HR,2024-06-23,2024-06-30,Benefit Claim,Michael Lead,5,Miss
+REQ0461,101,Alice Johnson,HR,2024-06-24,2024-07-02,ID Card Replacement,John Manager,6,Miss
+REQ0462,102,Bob Smith,HR,2024-06-24,2024-06-26,Access Approval,John Manager,2,Pass
+REQ0463,103,Charlie Davis,HR,2024-06-25,2024-07-02,Access Approval,John Manager,5,Miss
+REQ0464,102,Bob Smith,HR,2024-06-25,2024-07-04,ID Card Replacement,Michael Lead,7,Miss
+REQ0465,105,Eve Wilson,HR,2024-06-25,2024-06-29,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0466,104,David Brown,HR,2024-06-25,2024-07-01,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0467,102,Bob Smith,HR,2024-06-25,2024-07-01,ID Card Replacement,Michael Lead,4,Miss
+REQ0468,105,Eve Wilson,HR,2024-06-25,2024-07-05,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0469,105,Eve Wilson,HR,2024-06-26,2024-07-04,Benefit Claim,Sarah Supervisor,6,Miss
+REQ0470,103,Charlie Davis,HR,2024-06-26,2024-06-27,Access Approval,Sarah Supervisor,1,Pass
+REQ0471,103,Charlie Davis,HR,2024-06-27,2024-07-04,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0472,103,Charlie Davis,HR,2024-06-27,2024-06-30,ID Card Replacement,Michael Lead,2,Pass
+REQ0473,103,Charlie Davis,HR,2024-06-28,2024-07-02,Access Approval,John Manager,2,Pass
+REQ0474,103,Charlie Davis,HR,2024-06-28,2024-07-04,Payroll Issue,John Manager,4,Miss
+REQ0475,103,Charlie Davis,HR,2024-06-28,2024-07-03,ID Card Replacement,Michael Lead,3,Pass
+REQ0476,102,Bob Smith,HR,2024-06-28,2024-07-03,Payroll Issue,John Manager,3,Pass
+REQ0477,104,David Brown,HR,2024-06-30,2024-07-05,Payroll Issue,John Manager,4,Miss
+REQ0478,105,Eve Wilson,HR,2024-06-30,2024-07-04,ID Card Replacement,Michael Lead,3,Pass
+REQ0479,103,Charlie Davis,HR,2024-06-30,2024-07-03,ID Card Replacement,John Manager,2,Pass
+REQ0480,105,Eve Wilson,HR,2024-07-02,2024-07-03,Benefit Claim,Michael Lead,1,Pass
+REQ0481,105,Eve Wilson,HR,2024-07-02,2024-07-05,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0482,102,Bob Smith,HR,2024-07-03,2024-07-08,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0483,104,David Brown,HR,2024-07-04,2024-07-08,Payroll Issue,Michael Lead,2,Pass
+REQ0484,104,David Brown,HR,2024-07-04,2024-07-13,Benefit Claim,John Manager,7,Miss
+REQ0485,101,Alice Johnson,HR,2024-07-05,2024-07-14,Benefit Claim,John Manager,6,Miss
+REQ0486,103,Charlie Davis,HR,2024-07-05,2024-07-08,ID Card Replacement,John Manager,1,Pass
+REQ0487,102,Bob Smith,HR,2024-07-05,2024-07-11,ID Card Replacement,John Manager,4,Miss
+REQ0488,103,Charlie Davis,HR,2024-07-05,2024-07-10,Access Approval,Michael Lead,3,Pass
+REQ0489,102,Bob Smith,HR,2024-07-05,2024-07-13,Access Approval,Michael Lead,6,Miss
+REQ0490,103,Charlie Davis,HR,2024-07-05,2024-07-10,Benefit Claim,John Manager,3,Pass
+REQ0491,102,Bob Smith,HR,2024-07-05,2024-07-08,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0492,104,David Brown,HR,2024-07-06,2024-07-10,ID Card Replacement,Michael Lead,2,Pass
+REQ0493,101,Alice Johnson,HR,2024-07-06,2024-07-14,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0494,104,David Brown,HR,2024-07-06,2024-07-07,ID Card Replacement,Sarah Supervisor,0,Pass
+REQ0495,105,Eve Wilson,HR,2024-07-07,2024-07-15,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0496,104,David Brown,HR,2024-07-07,2024-07-16,Access Approval,Michael Lead,6,Miss
+REQ0497,103,Charlie Davis,HR,2024-07-07,2024-07-10,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0498,102,Bob Smith,HR,2024-07-07,2024-07-14,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0499,104,David Brown,HR,2024-07-08,2024-07-10,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0500,101,Alice Johnson,HR,2024-07-08,2024-07-18,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0501,105,Eve Wilson,HR,2024-07-08,2024-07-09,Payroll Issue,Michael Lead,1,Pass
+REQ0502,104,David Brown,HR,2024-07-08,2024-07-16,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0503,104,David Brown,HR,2024-07-09,2024-07-12,Payroll Issue,Michael Lead,3,Pass
+REQ0504,103,Charlie Davis,HR,2024-07-09,2024-07-14,Benefit Claim,Michael Lead,4,Miss
+REQ0505,103,Charlie Davis,HR,2024-07-10,2024-07-20,Benefit Claim,Michael Lead,8,Miss
+REQ0506,105,Eve Wilson,HR,2024-07-10,2024-07-13,Access Approval,Michael Lead,3,Pass
+REQ0507,101,Alice Johnson,HR,2024-07-11,2024-07-12,Payroll Issue,John Manager,1,Pass
+REQ0508,103,Charlie Davis,HR,2024-07-11,2024-07-14,Access Approval,Michael Lead,2,Pass
+REQ0509,102,Bob Smith,HR,2024-07-11,2024-07-15,Access Approval,Michael Lead,2,Pass
+REQ0510,102,Bob Smith,HR,2024-07-11,2024-07-16,Access Approval,Michael Lead,3,Pass
+REQ0511,104,David Brown,HR,2024-07-11,2024-07-15,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0512,103,Charlie Davis,HR,2024-07-12,2024-07-15,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0513,105,Eve Wilson,HR,2024-07-13,2024-07-19,Benefit Claim,John Manager,4,Miss
+REQ0514,102,Bob Smith,HR,2024-07-13,2024-07-15,Access Approval,John Manager,0,Pass
+REQ0515,102,Bob Smith,HR,2024-07-14,2024-07-18,Access Approval,Michael Lead,3,Pass
+REQ0516,104,David Brown,HR,2024-07-14,2024-07-21,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0517,104,David Brown,HR,2024-07-14,2024-07-17,Access Approval,Sarah Supervisor,2,Pass
+REQ0518,103,Charlie Davis,HR,2024-07-14,2024-07-23,Benefit Claim,Sarah Supervisor,6,Miss
+REQ0519,105,Eve Wilson,HR,2024-07-15,2024-07-24,ID Card Replacement,Michael Lead,7,Miss
+REQ0520,101,Alice Johnson,HR,2024-07-15,2024-07-16,ID Card Replacement,John Manager,1,Pass
+REQ0521,105,Eve Wilson,HR,2024-07-15,2024-07-25,ID Card Replacement,John Manager,8,Miss
+REQ0522,103,Charlie Davis,HR,2024-07-15,2024-07-22,Payroll Issue,John Manager,5,Miss
+REQ0523,102,Bob Smith,HR,2024-07-15,2024-07-17,ID Card Replacement,Michael Lead,2,Pass
+REQ0524,105,Eve Wilson,HR,2024-07-16,2024-07-20,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0525,101,Alice Johnson,HR,2024-07-16,2024-07-19,ID Card Replacement,Michael Lead,3,Pass
+REQ0526,102,Bob Smith,HR,2024-07-16,2024-07-21,Access Approval,Sarah Supervisor,4,Miss
+REQ0527,105,Eve Wilson,HR,2024-07-17,2024-07-22,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0528,101,Alice Johnson,HR,2024-07-17,2024-07-20,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0529,105,Eve Wilson,HR,2024-07-18,2024-07-26,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0530,105,Eve Wilson,HR,2024-07-20,2024-07-25,ID Card Replacement,Michael Lead,3,Pass
+REQ0531,103,Charlie Davis,HR,2024-07-20,2024-07-22,Access Approval,Sarah Supervisor,0,Pass
+REQ0532,103,Charlie Davis,HR,2024-07-20,2024-07-21,ID Card Replacement,John Manager,0,Pass
+REQ0533,105,Eve Wilson,HR,2024-07-20,2024-07-25,Payroll Issue,Michael Lead,3,Pass
+REQ0534,103,Charlie Davis,HR,2024-07-21,2024-07-30,Benefit Claim,John Manager,6,Miss
+REQ0535,104,David Brown,HR,2024-07-21,2024-07-29,ID Card Replacement,John Manager,5,Miss
+REQ0536,105,Eve Wilson,HR,2024-07-22,2024-07-28,Benefit Claim,Michael Lead,5,Miss
+REQ0537,105,Eve Wilson,HR,2024-07-22,2024-07-29,Payroll Issue,John Manager,5,Miss
+REQ0538,105,Eve Wilson,HR,2024-07-22,2024-07-23,Access Approval,John Manager,1,Pass
+REQ0539,101,Alice Johnson,HR,2024-07-22,2024-07-30,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0540,105,Eve Wilson,HR,2024-07-23,2024-07-24,Benefit Claim,Michael Lead,1,Pass
+REQ0541,102,Bob Smith,HR,2024-07-23,2024-07-29,Access Approval,Michael Lead,4,Miss
+REQ0542,105,Eve Wilson,HR,2024-07-23,2024-08-02,Payroll Issue,John Manager,8,Miss
+REQ0543,105,Eve Wilson,HR,2024-07-24,2024-08-02,Access Approval,John Manager,7,Miss
+REQ0544,101,Alice Johnson,HR,2024-07-26,2024-07-30,Payroll Issue,Michael Lead,2,Pass
+REQ0545,105,Eve Wilson,HR,2024-07-27,2024-08-05,Access Approval,Michael Lead,5,Miss
+REQ0546,101,Alice Johnson,HR,2024-07-27,2024-07-31,Payroll Issue,John Manager,2,Pass
+REQ0547,105,Eve Wilson,HR,2024-07-27,2024-08-01,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0548,104,David Brown,HR,2024-07-28,2024-08-03,Benefit Claim,Michael Lead,5,Miss
+REQ0549,104,David Brown,HR,2024-07-28,2024-08-02,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0550,103,Charlie Davis,HR,2024-07-28,2024-08-02,Payroll Issue,Michael Lead,4,Miss
+REQ0551,102,Bob Smith,HR,2024-07-29,2024-08-08,Payroll Issue,Sarah Supervisor,8,Miss
+REQ0552,103,Charlie Davis,HR,2024-07-29,2024-08-08,Access Approval,John Manager,8,Miss
+REQ0553,105,Eve Wilson,HR,2024-07-29,2024-07-31,Access Approval,Michael Lead,2,Pass
+REQ0554,105,Eve Wilson,HR,2024-07-30,2024-07-31,ID Card Replacement,John Manager,1,Pass
+REQ0555,105,Eve Wilson,HR,2024-07-30,2024-07-31,Access Approval,John Manager,1,Pass
+REQ0556,103,Charlie Davis,HR,2024-07-31,2024-08-05,ID Card Replacement,John Manager,3,Pass
+REQ0557,104,David Brown,HR,2024-07-31,2024-08-09,Access Approval,Sarah Supervisor,7,Miss
+REQ0558,103,Charlie Davis,HR,2024-08-01,2024-08-06,Access Approval,Sarah Supervisor,3,Pass
+REQ0559,104,David Brown,HR,2024-08-01,2024-08-07,Access Approval,Michael Lead,4,Miss
+REQ0560,101,Alice Johnson,HR,2024-08-01,2024-08-08,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0561,103,Charlie Davis,HR,2024-08-01,2024-08-07,Payroll Issue,Michael Lead,4,Miss
+REQ0562,102,Bob Smith,HR,2024-08-01,2024-08-06,Access Approval,Sarah Supervisor,3,Pass
+REQ0563,105,Eve Wilson,HR,2024-08-03,2024-08-05,Payroll Issue,Michael Lead,0,Pass
+REQ0564,105,Eve Wilson,HR,2024-08-04,2024-08-10,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0565,103,Charlie Davis,HR,2024-08-04,2024-08-14,ID Card Replacement,John Manager,7,Miss
+REQ0566,104,David Brown,HR,2024-08-04,2024-08-05,Payroll Issue,John Manager,0,Pass
+REQ0567,101,Alice Johnson,HR,2024-08-04,2024-08-14,ID Card Replacement,Michael Lead,7,Miss
+REQ0568,103,Charlie Davis,HR,2024-08-04,2024-08-08,Access Approval,Sarah Supervisor,3,Pass
+REQ0569,102,Bob Smith,HR,2024-08-04,2024-08-13,ID Card Replacement,John Manager,6,Miss
+REQ0570,101,Alice Johnson,HR,2024-08-05,2024-08-06,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0571,104,David Brown,HR,2024-08-05,2024-08-08,Access Approval,John Manager,3,Pass
+REQ0572,102,Bob Smith,HR,2024-08-06,2024-08-09,Access Approval,Sarah Supervisor,3,Pass
+REQ0573,105,Eve Wilson,HR,2024-08-06,2024-08-13,Payroll Issue,John Manager,5,Miss
+REQ0574,105,Eve Wilson,HR,2024-08-06,2024-08-10,Payroll Issue,John Manager,4,Miss
+REQ0575,101,Alice Johnson,HR,2024-08-06,2024-08-16,ID Card Replacement,John Manager,8,Miss
+REQ0576,103,Charlie Davis,HR,2024-08-07,2024-08-11,Payroll Issue,Michael Lead,3,Pass
+REQ0577,104,David Brown,HR,2024-08-08,2024-08-14,ID Card Replacement,John Manager,4,Miss
+REQ0578,104,David Brown,HR,2024-08-08,2024-08-15,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0579,105,Eve Wilson,HR,2024-08-10,2024-08-11,Access Approval,John Manager,0,Pass
+REQ0580,105,Eve Wilson,HR,2024-08-10,2024-08-16,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0581,101,Alice Johnson,HR,2024-08-10,2024-08-19,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0582,103,Charlie Davis,HR,2024-08-10,2024-08-20,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0583,105,Eve Wilson,HR,2024-08-10,2024-08-18,Payroll Issue,Michael Lead,5,Miss
+REQ0584,101,Alice Johnson,HR,2024-08-11,2024-08-16,Payroll Issue,John Manager,4,Miss
+REQ0585,103,Charlie Davis,HR,2024-08-12,2024-08-15,Access Approval,Sarah Supervisor,3,Pass
+REQ0586,103,Charlie Davis,HR,2024-08-12,2024-08-16,Payroll Issue,John Manager,4,Miss
+REQ0587,102,Bob Smith,HR,2024-08-12,2024-08-14,ID Card Replacement,Michael Lead,2,Pass
+REQ0588,102,Bob Smith,HR,2024-08-12,2024-08-22,ID Card Replacement,John Manager,8,Miss
+REQ0589,101,Alice Johnson,HR,2024-08-12,2024-08-22,Benefit Claim,Michael Lead,8,Miss
+REQ0590,105,Eve Wilson,HR,2024-08-13,2024-08-15,ID Card Replacement,Michael Lead,2,Pass
+REQ0591,102,Bob Smith,HR,2024-08-15,2024-08-23,ID Card Replacement,John Manager,6,Miss
+REQ0592,104,David Brown,HR,2024-08-16,2024-08-20,ID Card Replacement,John Manager,2,Pass
+REQ0593,104,David Brown,HR,2024-08-16,2024-08-21,Access Approval,Sarah Supervisor,3,Pass
+REQ0594,101,Alice Johnson,HR,2024-08-16,2024-08-21,Benefit Claim,John Manager,3,Pass
+REQ0595,103,Charlie Davis,HR,2024-08-17,2024-08-26,Benefit Claim,Michael Lead,5,Miss
+REQ0596,104,David Brown,HR,2024-08-17,2024-08-23,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0597,104,David Brown,HR,2024-08-17,2024-08-26,Access Approval,Michael Lead,5,Miss
+REQ0598,101,Alice Johnson,HR,2024-08-18,2024-08-24,Access Approval,Michael Lead,5,Miss
+REQ0599,103,Charlie Davis,HR,2024-08-18,2024-08-19,Benefit Claim,Sarah Supervisor,0,Pass
+REQ0600,104,David Brown,HR,2024-08-18,2024-08-27,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0601,104,David Brown,HR,2024-08-19,2024-08-28,Access Approval,Michael Lead,7,Miss
+REQ0602,101,Alice Johnson,HR,2024-08-19,2024-08-25,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0603,103,Charlie Davis,HR,2024-08-19,2024-08-27,Access Approval,Sarah Supervisor,6,Miss
+REQ0604,101,Alice Johnson,HR,2024-08-20,2024-08-28,Access Approval,Sarah Supervisor,6,Miss
+REQ0605,101,Alice Johnson,HR,2024-08-20,2024-08-29,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0606,103,Charlie Davis,HR,2024-08-21,2024-08-30,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0607,105,Eve Wilson,HR,2024-08-21,2024-08-27,ID Card Replacement,Michael Lead,4,Miss
+REQ0608,102,Bob Smith,HR,2024-08-21,2024-08-25,Benefit Claim,John Manager,3,Pass
+REQ0609,101,Alice Johnson,HR,2024-08-21,2024-08-29,Benefit Claim,Michael Lead,6,Miss
+REQ0610,104,David Brown,HR,2024-08-21,2024-08-26,Payroll Issue,John Manager,3,Pass
+REQ0611,101,Alice Johnson,HR,2024-08-22,2024-08-28,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0612,105,Eve Wilson,HR,2024-08-22,2024-08-27,Payroll Issue,John Manager,3,Pass
+REQ0613,101,Alice Johnson,HR,2024-08-22,2024-08-24,Access Approval,John Manager,2,Pass
+REQ0614,104,David Brown,HR,2024-08-23,2024-08-28,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0615,105,Eve Wilson,HR,2024-08-23,2024-08-30,Benefit Claim,Michael Lead,5,Miss
+REQ0616,104,David Brown,HR,2024-08-23,2024-09-01,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0617,103,Charlie Davis,HR,2024-08-23,2024-08-29,Benefit Claim,Michael Lead,4,Miss
+REQ0618,105,Eve Wilson,HR,2024-08-24,2024-08-30,Benefit Claim,John Manager,4,Miss
+REQ0619,105,Eve Wilson,HR,2024-08-24,2024-08-29,Benefit Claim,John Manager,3,Pass
+REQ0620,104,David Brown,HR,2024-08-25,2024-08-26,Benefit Claim,Sarah Supervisor,0,Pass
+REQ0621,102,Bob Smith,HR,2024-08-25,2024-08-27,Access Approval,John Manager,1,Pass
+REQ0622,104,David Brown,HR,2024-08-25,2024-09-04,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0623,105,Eve Wilson,HR,2024-08-26,2024-08-28,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0624,104,David Brown,HR,2024-08-26,2024-08-28,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0625,105,Eve Wilson,HR,2024-08-27,2024-09-02,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0626,105,Eve Wilson,HR,2024-08-28,2024-09-03,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0627,103,Charlie Davis,HR,2024-08-28,2024-08-30,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0628,104,David Brown,HR,2024-08-28,2024-09-07,Access Approval,John Manager,8,Miss
+REQ0629,101,Alice Johnson,HR,2024-08-29,2024-09-03,Benefit Claim,Michael Lead,3,Pass
+REQ0630,105,Eve Wilson,HR,2024-08-30,2024-09-03,Payroll Issue,Michael Lead,2,Pass
+REQ0631,101,Alice Johnson,HR,2024-08-30,2024-09-04,Payroll Issue,John Manager,3,Pass
+REQ0632,102,Bob Smith,HR,2024-08-31,2024-09-04,Benefit Claim,John Manager,2,Pass
+REQ0633,102,Bob Smith,HR,2024-08-31,2024-09-04,ID Card Replacement,Michael Lead,2,Pass
+REQ0634,101,Alice Johnson,HR,2024-09-01,2024-09-07,ID Card Replacement,Michael Lead,5,Miss
+REQ0635,105,Eve Wilson,HR,2024-09-01,2024-09-08,Access Approval,Michael Lead,5,Miss
+REQ0636,105,Eve Wilson,HR,2024-09-02,2024-09-07,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0637,103,Charlie Davis,HR,2024-09-02,2024-09-07,Benefit Claim,John Manager,5,Miss
+REQ0638,105,Eve Wilson,HR,2024-09-02,2024-09-07,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0639,102,Bob Smith,HR,2024-09-02,2024-09-06,Access Approval,John Manager,4,Miss
+REQ0640,103,Charlie Davis,HR,2024-09-02,2024-09-08,Access Approval,Michael Lead,5,Miss
+REQ0641,104,David Brown,HR,2024-09-02,2024-09-03,ID Card Replacement,Michael Lead,1,Pass
+REQ0642,105,Eve Wilson,HR,2024-09-02,2024-09-06,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0643,101,Alice Johnson,HR,2024-09-02,2024-09-06,ID Card Replacement,John Manager,4,Miss
+REQ0644,102,Bob Smith,HR,2024-09-02,2024-09-11,Payroll Issue,Michael Lead,7,Miss
+REQ0645,103,Charlie Davis,HR,2024-09-02,2024-09-04,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0646,104,David Brown,HR,2024-09-03,2024-09-10,ID Card Replacement,John Manager,5,Miss
+REQ0647,102,Bob Smith,HR,2024-09-03,2024-09-08,Payroll Issue,Michael Lead,4,Miss
+REQ0648,102,Bob Smith,HR,2024-09-03,2024-09-09,Access Approval,Sarah Supervisor,4,Miss
+REQ0649,101,Alice Johnson,HR,2024-09-03,2024-09-10,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0650,104,David Brown,HR,2024-09-03,2024-09-04,Access Approval,John Manager,1,Pass
+REQ0651,101,Alice Johnson,HR,2024-09-03,2024-09-07,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0652,102,Bob Smith,HR,2024-09-03,2024-09-06,Payroll Issue,John Manager,3,Pass
+REQ0653,102,Bob Smith,HR,2024-09-03,2024-09-09,ID Card Replacement,Michael Lead,4,Miss
+REQ0654,102,Bob Smith,HR,2024-09-04,2024-09-10,Payroll Issue,John Manager,4,Miss
+REQ0655,104,David Brown,HR,2024-09-04,2024-09-10,Benefit Claim,Michael Lead,4,Miss
+REQ0656,103,Charlie Davis,HR,2024-09-04,2024-09-11,Access Approval,Sarah Supervisor,5,Miss
+REQ0657,102,Bob Smith,HR,2024-09-04,2024-09-08,ID Card Replacement,John Manager,3,Pass
+REQ0658,103,Charlie Davis,HR,2024-09-04,2024-09-08,Payroll Issue,John Manager,3,Pass
+REQ0659,102,Bob Smith,HR,2024-09-04,2024-09-13,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0660,101,Alice Johnson,HR,2024-09-04,2024-09-14,ID Card Replacement,Michael Lead,8,Miss
+REQ0661,104,David Brown,HR,2024-09-05,2024-09-15,Benefit Claim,Michael Lead,7,Miss
+REQ0662,103,Charlie Davis,HR,2024-09-06,2024-09-09,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0663,101,Alice Johnson,HR,2024-09-06,2024-09-09,Access Approval,Sarah Supervisor,1,Pass
+REQ0664,102,Bob Smith,HR,2024-09-07,2024-09-14,ID Card Replacement,John Manager,5,Miss
+REQ0665,104,David Brown,HR,2024-09-07,2024-09-14,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0666,104,David Brown,HR,2024-09-07,2024-09-12,Benefit Claim,Michael Lead,3,Pass
+REQ0667,105,Eve Wilson,HR,2024-09-08,2024-09-13,Access Approval,Sarah Supervisor,4,Miss
+REQ0668,102,Bob Smith,HR,2024-09-08,2024-09-16,Payroll Issue,Michael Lead,5,Miss
+REQ0669,103,Charlie Davis,HR,2024-09-08,2024-09-11,Payroll Issue,Michael Lead,2,Pass
+REQ0670,104,David Brown,HR,2024-09-08,2024-09-09,Benefit Claim,Michael Lead,0,Pass
+REQ0671,104,David Brown,HR,2024-09-09,2024-09-13,Benefit Claim,John Manager,4,Miss
+REQ0672,105,Eve Wilson,HR,2024-09-09,2024-09-19,Access Approval,Michael Lead,8,Miss
+REQ0673,103,Charlie Davis,HR,2024-09-09,2024-09-10,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0674,105,Eve Wilson,HR,2024-09-11,2024-09-19,Access Approval,Michael Lead,6,Miss
+REQ0675,103,Charlie Davis,HR,2024-09-11,2024-09-12,Access Approval,Sarah Supervisor,1,Pass
+REQ0676,101,Alice Johnson,HR,2024-09-13,2024-09-17,Payroll Issue,Michael Lead,2,Pass
+REQ0677,105,Eve Wilson,HR,2024-09-13,2024-09-16,ID Card Replacement,John Manager,1,Pass
+REQ0678,102,Bob Smith,HR,2024-09-13,2024-09-15,Benefit Claim,Michael Lead,1,Pass
+REQ0679,104,David Brown,HR,2024-09-14,2024-09-18,Benefit Claim,Michael Lead,2,Pass
+REQ0680,101,Alice Johnson,HR,2024-09-15,2024-09-20,Benefit Claim,John Manager,4,Miss
+REQ0681,102,Bob Smith,HR,2024-09-15,2024-09-23,Benefit Claim,Michael Lead,5,Miss
+REQ0682,102,Bob Smith,HR,2024-09-15,2024-09-18,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0683,105,Eve Wilson,HR,2024-09-16,2024-09-21,Access Approval,Sarah Supervisor,5,Miss
+REQ0684,101,Alice Johnson,HR,2024-09-17,2024-09-27,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0685,105,Eve Wilson,HR,2024-09-17,2024-09-18,ID Card Replacement,John Manager,1,Pass
+REQ0686,101,Alice Johnson,HR,2024-09-17,2024-09-21,ID Card Replacement,Michael Lead,4,Miss
+REQ0687,101,Alice Johnson,HR,2024-09-18,2024-09-24,Access Approval,Sarah Supervisor,4,Miss
+REQ0688,101,Alice Johnson,HR,2024-09-18,2024-09-27,ID Card Replacement,Michael Lead,7,Miss
+REQ0689,101,Alice Johnson,HR,2024-09-19,2024-09-24,Benefit Claim,John Manager,3,Pass
+REQ0690,104,David Brown,HR,2024-09-20,2024-09-28,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0691,102,Bob Smith,HR,2024-09-20,2024-09-24,Payroll Issue,Michael Lead,2,Pass
+REQ0692,105,Eve Wilson,HR,2024-09-20,2024-09-22,Benefit Claim,John Manager,1,Pass
+REQ0693,104,David Brown,HR,2024-09-20,2024-09-25,Benefit Claim,Michael Lead,3,Pass
+REQ0694,104,David Brown,HR,2024-09-20,2024-09-26,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0695,103,Charlie Davis,HR,2024-09-21,2024-10-01,ID Card Replacement,John Manager,6,Miss
+REQ0696,103,Charlie Davis,HR,2024-09-22,2024-09-27,Access Approval,John Manager,4,Miss
+REQ0697,105,Eve Wilson,HR,2024-09-22,2024-10-01,Benefit Claim,Michael Lead,6,Miss
+REQ0698,101,Alice Johnson,HR,2024-09-22,2024-09-23,Payroll Issue,Michael Lead,0,Pass
+REQ0699,101,Alice Johnson,HR,2024-09-22,2024-10-01,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0700,105,Eve Wilson,HR,2024-09-23,2024-10-01,Access Approval,John Manager,6,Miss
+REQ0701,103,Charlie Davis,HR,2024-09-24,2024-09-29,Payroll Issue,Michael Lead,4,Miss
+REQ0702,103,Charlie Davis,HR,2024-09-24,2024-10-04,Payroll Issue,John Manager,8,Miss
+REQ0703,104,David Brown,HR,2024-09-24,2024-09-28,Access Approval,Michael Lead,4,Miss
+REQ0704,104,David Brown,HR,2024-09-25,2024-10-04,Access Approval,Michael Lead,7,Miss
+REQ0705,103,Charlie Davis,HR,2024-09-25,2024-09-28,Access Approval,Michael Lead,3,Pass
+REQ0706,102,Bob Smith,HR,2024-09-25,2024-09-27,Access Approval,Sarah Supervisor,2,Pass
+REQ0707,102,Bob Smith,HR,2024-09-25,2024-09-30,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0708,102,Bob Smith,HR,2024-09-26,2024-10-01,Benefit Claim,John Manager,3,Pass
+REQ0709,102,Bob Smith,HR,2024-09-26,2024-09-29,Payroll Issue,Michael Lead,2,Pass
+REQ0710,104,David Brown,HR,2024-09-27,2024-10-06,Benefit Claim,Michael Lead,6,Miss
+REQ0711,105,Eve Wilson,HR,2024-09-27,2024-10-02,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0712,105,Eve Wilson,HR,2024-09-27,2024-10-07,ID Card Replacement,Michael Lead,6,Miss
+REQ0713,101,Alice Johnson,HR,2024-09-27,2024-09-28,ID Card Replacement,John Manager,1,Pass
+REQ0714,104,David Brown,HR,2024-09-28,2024-10-07,Access Approval,John Manager,5,Miss
+REQ0715,104,David Brown,HR,2024-09-28,2024-10-03,Payroll Issue,Michael Lead,3,Pass
+REQ0716,101,Alice Johnson,HR,2024-09-28,2024-09-30,Payroll Issue,Michael Lead,0,Pass
+REQ0717,102,Bob Smith,HR,2024-09-29,2024-10-06,Access Approval,Sarah Supervisor,5,Miss
+REQ0718,105,Eve Wilson,HR,2024-09-29,2024-10-02,Access Approval,Sarah Supervisor,2,Pass
+REQ0719,102,Bob Smith,HR,2024-09-29,2024-10-09,Access Approval,Michael Lead,7,Miss
+REQ0720,103,Charlie Davis,HR,2024-09-30,2024-10-04,Payroll Issue,John Manager,4,Miss
+REQ0721,102,Bob Smith,HR,2024-09-30,2024-10-01,Payroll Issue,Michael Lead,1,Pass
+REQ0722,103,Charlie Davis,HR,2024-10-01,2024-10-10,Access Approval,Sarah Supervisor,7,Miss
+REQ0723,101,Alice Johnson,HR,2024-10-01,2024-10-06,ID Card Replacement,Michael Lead,4,Miss
+REQ0724,101,Alice Johnson,HR,2024-10-01,2024-10-07,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0725,101,Alice Johnson,HR,2024-10-01,2024-10-08,Payroll Issue,John Manager,5,Miss
+REQ0726,102,Bob Smith,HR,2024-10-01,2024-10-03,Benefit Claim,Michael Lead,2,Pass
+REQ0727,102,Bob Smith,HR,2024-10-01,2024-10-05,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0728,105,Eve Wilson,HR,2024-10-03,2024-10-06,Benefit Claim,Michael Lead,2,Pass
+REQ0729,105,Eve Wilson,HR,2024-10-03,2024-10-12,ID Card Replacement,John Manager,7,Miss
+REQ0730,103,Charlie Davis,HR,2024-10-04,2024-10-14,Payroll Issue,John Manager,6,Miss
+REQ0731,104,David Brown,HR,2024-10-04,2024-10-08,Payroll Issue,Michael Lead,2,Pass
+REQ0732,101,Alice Johnson,HR,2024-10-04,2024-10-09,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0733,105,Eve Wilson,HR,2024-10-04,2024-10-09,Benefit Claim,John Manager,3,Pass
+REQ0734,104,David Brown,HR,2024-10-05,2024-10-11,Access Approval,John Manager,4,Miss
+REQ0735,103,Charlie Davis,HR,2024-10-05,2024-10-12,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0736,105,Eve Wilson,HR,2024-10-06,2024-10-13,Access Approval,Sarah Supervisor,5,Miss
+REQ0737,102,Bob Smith,HR,2024-10-06,2024-10-15,Payroll Issue,John Manager,6,Miss
+REQ0738,104,David Brown,HR,2024-10-06,2024-10-08,Access Approval,John Manager,1,Pass
+REQ0739,103,Charlie Davis,HR,2024-10-07,2024-10-13,ID Card Replacement,Sarah Supervisor,5,Miss
+REQ0740,105,Eve Wilson,HR,2024-10-07,2024-10-17,Access Approval,Michael Lead,8,Miss
+REQ0741,102,Bob Smith,HR,2024-10-07,2024-10-12,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0742,103,Charlie Davis,HR,2024-10-08,2024-10-16,Access Approval,Michael Lead,6,Miss
+REQ0743,101,Alice Johnson,HR,2024-10-08,2024-10-11,Benefit Claim,Michael Lead,3,Pass
+REQ0744,105,Eve Wilson,HR,2024-10-08,2024-10-15,Access Approval,Sarah Supervisor,5,Miss
+REQ0745,104,David Brown,HR,2024-10-08,2024-10-18,Benefit Claim,Michael Lead,8,Miss
+REQ0746,103,Charlie Davis,HR,2024-10-08,2024-10-17,Access Approval,Michael Lead,7,Miss
+REQ0747,105,Eve Wilson,HR,2024-10-09,2024-10-15,Access Approval,Michael Lead,4,Miss
+REQ0748,101,Alice Johnson,HR,2024-10-09,2024-10-15,ID Card Replacement,Michael Lead,4,Miss
+REQ0749,105,Eve Wilson,HR,2024-10-10,2024-10-20,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0750,102,Bob Smith,HR,2024-10-10,2024-10-14,Access Approval,John Manager,2,Pass
+REQ0751,103,Charlie Davis,HR,2024-10-10,2024-10-17,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0752,103,Charlie Davis,HR,2024-10-10,2024-10-19,Benefit Claim,John Manager,7,Miss
+REQ0753,104,David Brown,HR,2024-10-10,2024-10-20,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0754,102,Bob Smith,HR,2024-10-10,2024-10-19,Benefit Claim,John Manager,7,Miss
+REQ0755,102,Bob Smith,HR,2024-10-11,2024-10-12,Benefit Claim,John Manager,1,Pass
+REQ0756,101,Alice Johnson,HR,2024-10-11,2024-10-12,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0757,103,Charlie Davis,HR,2024-10-11,2024-10-17,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0758,101,Alice Johnson,HR,2024-10-13,2024-10-21,ID Card Replacement,John Manager,5,Miss
+REQ0759,104,David Brown,HR,2024-10-13,2024-10-17,Access Approval,Michael Lead,3,Pass
+REQ0760,102,Bob Smith,HR,2024-10-13,2024-10-22,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0761,105,Eve Wilson,HR,2024-10-14,2024-10-16,Payroll Issue,Michael Lead,2,Pass
+REQ0762,104,David Brown,HR,2024-10-14,2024-10-19,Payroll Issue,John Manager,5,Miss
+REQ0763,102,Bob Smith,HR,2024-10-14,2024-10-18,ID Card Replacement,John Manager,4,Miss
+REQ0764,101,Alice Johnson,HR,2024-10-15,2024-10-21,ID Card Replacement,Michael Lead,4,Miss
+REQ0765,103,Charlie Davis,HR,2024-10-15,2024-10-25,Access Approval,John Manager,8,Miss
+REQ0766,103,Charlie Davis,HR,2024-10-15,2024-10-21,Access Approval,Michael Lead,4,Miss
+REQ0767,105,Eve Wilson,HR,2024-10-15,2024-10-19,ID Card Replacement,Michael Lead,4,Miss
+REQ0768,103,Charlie Davis,HR,2024-10-15,2024-10-22,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0769,103,Charlie Davis,HR,2024-10-16,2024-10-26,Access Approval,John Manager,8,Miss
+REQ0770,105,Eve Wilson,HR,2024-10-17,2024-10-24,Payroll Issue,John Manager,5,Miss
+REQ0771,105,Eve Wilson,HR,2024-10-17,2024-10-27,ID Card Replacement,Michael Lead,7,Miss
+REQ0772,102,Bob Smith,HR,2024-10-18,2024-10-26,Payroll Issue,John Manager,6,Miss
+REQ0773,102,Bob Smith,HR,2024-10-18,2024-10-20,Access Approval,Michael Lead,1,Pass
+REQ0774,104,David Brown,HR,2024-10-18,2024-10-21,ID Card Replacement,Michael Lead,1,Pass
+REQ0775,105,Eve Wilson,HR,2024-10-19,2024-10-21,Access Approval,Michael Lead,0,Pass
+REQ0776,101,Alice Johnson,HR,2024-10-19,2024-10-20,Benefit Claim,John Manager,0,Pass
+REQ0777,102,Bob Smith,HR,2024-10-19,2024-10-25,Benefit Claim,Michael Lead,4,Miss
+REQ0778,104,David Brown,HR,2024-10-19,2024-10-21,Payroll Issue,Sarah Supervisor,0,Pass
+REQ0779,104,David Brown,HR,2024-10-19,2024-10-26,Benefit Claim,John Manager,5,Miss
+REQ0780,101,Alice Johnson,HR,2024-10-20,2024-10-26,Access Approval,Sarah Supervisor,5,Miss
+REQ0781,105,Eve Wilson,HR,2024-10-20,2024-10-23,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0782,105,Eve Wilson,HR,2024-10-20,2024-10-25,Benefit Claim,Michael Lead,4,Miss
+REQ0783,103,Charlie Davis,HR,2024-10-21,2024-10-30,ID Card Replacement,John Manager,7,Miss
+REQ0784,105,Eve Wilson,HR,2024-10-21,2024-10-23,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0785,101,Alice Johnson,HR,2024-10-21,2024-10-27,Access Approval,Sarah Supervisor,5,Miss
+REQ0786,105,Eve Wilson,HR,2024-10-20,2024-10-23,Benefit Claim,Michael Lead,2,Pass
+REQ0787,102,Bob Smith,HR,2024-10-22,2024-10-30,Payroll Issue,Michael Lead,6,Miss
+REQ0788,102,Bob Smith,HR,2024-10-22,2024-10-27,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0789,102,Bob Smith,HR,2024-10-22,2024-10-29,Payroll Issue,Michael Lead,5,Miss
+REQ0790,104,David Brown,HR,2024-10-22,2024-10-30,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0791,102,Bob Smith,HR,2024-10-22,2024-10-23,Payroll Issue,John Manager,1,Pass
+REQ0792,102,Bob Smith,HR,2024-10-23,2024-10-28,Access Approval,Michael Lead,3,Pass
+REQ0793,105,Eve Wilson,HR,2024-10-23,2024-10-29,Access Approval,Michael Lead,4,Miss
+REQ0794,105,Eve Wilson,HR,2024-10-23,2024-10-31,Payroll Issue,Michael Lead,6,Miss
+REQ0795,105,Eve Wilson,HR,2024-10-23,2024-10-24,ID Card Replacement,John Manager,1,Pass
+REQ0796,103,Charlie Davis,HR,2024-10-23,2024-10-30,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0797,103,Charlie Davis,HR,2024-10-24,2024-10-25,ID Card Replacement,Michael Lead,1,Pass
+REQ0798,104,David Brown,HR,2024-10-24,2024-11-02,ID Card Replacement,John Manager,7,Miss
+REQ0799,104,David Brown,HR,2024-10-24,2024-10-25,Payroll Issue,John Manager,1,Pass
+REQ0800,103,Charlie Davis,HR,2024-10-25,2024-10-27,Access Approval,John Manager,1,Pass
+REQ0801,104,David Brown,HR,2024-10-25,2024-10-30,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0802,102,Bob Smith,HR,2024-10-28,2024-11-02,Payroll Issue,John Manager,5,Miss
+REQ0803,101,Alice Johnson,HR,2024-10-29,2024-11-03,Benefit Claim,Michael Lead,4,Miss
+REQ0804,103,Charlie Davis,HR,2024-10-28,2024-11-06,Benefit Claim,John Manager,7,Miss
+REQ0805,102,Bob Smith,HR,2024-10-28,2024-11-05,Access Approval,John Manager,6,Miss
+REQ0806,102,Bob Smith,HR,2024-10-28,2024-11-04,Access Approval,Sarah Supervisor,5,Miss
+REQ0807,104,David Brown,HR,2024-10-28,2024-11-05,Benefit Claim,Michael Lead,6,Miss
+REQ0808,102,Bob Smith,HR,2024-10-29,2024-11-03,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0809,105,Eve Wilson,HR,2024-10-29,2024-11-04,Benefit Claim,John Manager,4,Miss
+REQ0810,101,Alice Johnson,HR,2024-10-29,2024-11-07,ID Card Replacement,John Manager,7,Miss
+REQ0811,103,Charlie Davis,HR,2024-10-30,2024-11-05,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0812,101,Alice Johnson,HR,2024-10-30,2024-11-08,Benefit Claim,Michael Lead,7,Miss
+REQ0813,101,Alice Johnson,HR,2024-10-31,2024-11-02,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0814,104,David Brown,HR,2024-10-31,2024-11-05,Access Approval,Michael Lead,3,Pass
+REQ0815,104,David Brown,HR,2024-10-31,2024-11-06,Benefit Claim,Michael Lead,4,Miss
+REQ0816,104,David Brown,HR,2024-10-31,2024-11-07,Access Approval,Sarah Supervisor,5,Miss
+REQ0817,104,David Brown,HR,2024-10-31,2024-11-06,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0818,101,Alice Johnson,HR,2024-11-01,2024-11-05,Access Approval,Sarah Supervisor,2,Pass
+REQ0819,101,Alice Johnson,HR,2024-11-01,2024-11-03,ID Card Replacement,Michael Lead,1,Pass
+REQ0820,102,Bob Smith,HR,2024-11-01,2024-11-11,Benefit Claim,John Manager,6,Miss
+REQ0821,105,Eve Wilson,HR,2024-11-01,2024-11-03,ID Card Replacement,John Manager,1,Pass
+REQ0822,101,Alice Johnson,HR,2024-11-06,2024-11-09,Payroll Issue,Michael Lead,3,Pass
+REQ0823,105,Eve Wilson,HR,2024-11-02,2024-11-12,Benefit Claim,John Manager,6,Miss
+REQ0824,101,Alice Johnson,HR,2024-11-02,2024-11-11,Access Approval,Sarah Supervisor,5,Miss
+REQ0825,104,David Brown,HR,2024-11-03,2024-11-13,Access Approval,Michael Lead,7,Miss
+REQ0826,103,Charlie Davis,HR,2024-11-03,2024-11-09,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0827,102,Bob Smith,HR,2024-11-04,2024-11-11,Access Approval,John Manager,5,Miss
+REQ0828,102,Bob Smith,HR,2024-11-04,2024-11-09,Access Approval,Michael Lead,5,Miss
+REQ0829,101,Alice Johnson,HR,2024-11-05,2024-11-12,Payroll Issue,Michael Lead,5,Miss
+REQ0830,101,Alice Johnson,HR,2024-11-05,2024-11-08,Access Approval,John Manager,3,Pass
+REQ0831,101,Alice Johnson,HR,2024-11-05,2024-11-06,ID Card Replacement,John Manager,1,Pass
+REQ0832,105,Eve Wilson,HR,2024-11-05,2024-11-10,Access Approval,John Manager,4,Miss
+REQ0833,101,Alice Johnson,HR,2024-11-05,2024-11-08,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0834,102,Bob Smith,HR,2024-11-05,2024-11-10,ID Card Replacement,Michael Lead,4,Miss
+REQ0835,101,Alice Johnson,HR,2024-11-07,2024-11-09,Access Approval,John Manager,2,Pass
+REQ0836,105,Eve Wilson,HR,2024-11-07,2024-11-09,ID Card Replacement,Sarah Supervisor,2,Pass
+REQ0837,101,Alice Johnson,HR,2024-11-07,2024-11-16,Payroll Issue,John Manager,7,Miss
+REQ0838,105,Eve Wilson,HR,2024-11-07,2024-11-16,Access Approval,John Manager,7,Miss
+REQ0839,102,Bob Smith,HR,2024-11-07,2024-11-15,Payroll Issue,Michael Lead,6,Miss
+REQ0840,102,Bob Smith,HR,2024-11-08,2024-11-10,Payroll Issue,John Manager,1,Pass
+REQ0841,104,David Brown,HR,2024-11-09,2024-11-16,Benefit Claim,Michael Lead,5,Miss
+REQ0842,101,Alice Johnson,HR,2024-11-09,2024-11-10,Benefit Claim,Sarah Supervisor,0,Pass
+REQ0843,105,Eve Wilson,HR,2024-11-09,2024-11-18,Payroll Issue,John Manager,5,Miss
+REQ0844,102,Bob Smith,HR,2024-11-09,2024-11-14,Payroll Issue,Michael Lead,3,Pass
+REQ0845,104,David Brown,HR,2024-11-10,2024-11-18,Benefit Claim,Michael Lead,5,Miss
+REQ0846,102,Bob Smith,HR,2024-11-10,2024-11-11,Payroll Issue,Michael Lead,0,Pass
+REQ0847,103,Charlie Davis,HR,2024-11-04,2024-11-13,ID Card Replacement,Sarah Supervisor,7,Miss
+REQ0848,103,Charlie Davis,HR,2024-11-10,2024-11-14,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0849,104,David Brown,HR,2024-11-10,2024-11-19,Benefit Claim,Michael Lead,6,Miss
+REQ0850,105,Eve Wilson,HR,2024-11-10,2024-11-14,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0851,104,David Brown,HR,2024-11-10,2024-11-18,ID Card Replacement,John Manager,5,Miss
+REQ0852,103,Charlie Davis,HR,2024-11-10,2024-11-15,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0853,103,Charlie Davis,HR,2024-11-11,2024-11-21,Payroll Issue,Sarah Supervisor,8,Miss
+REQ0854,104,David Brown,HR,2024-11-11,2024-11-15,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0855,103,Charlie Davis,HR,2024-11-11,2024-11-13,Payroll Issue,Michael Lead,2,Pass
+REQ0856,101,Alice Johnson,HR,2024-11-12,2024-11-19,Access Approval,Michael Lead,5,Miss
+REQ0857,103,Charlie Davis,HR,2024-11-13,2024-11-19,Benefit Claim,Michael Lead,4,Miss
+REQ0858,103,Charlie Davis,HR,2024-11-13,2024-11-17,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0859,105,Eve Wilson,HR,2024-11-14,2024-11-19,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0860,105,Eve Wilson,HR,2024-11-14,2024-11-24,Access Approval,John Manager,7,Miss
+REQ0861,103,Charlie Davis,HR,2024-11-14,2024-11-15,ID Card Replacement,Michael Lead,1,Pass
+REQ0862,105,Eve Wilson,HR,2024-11-14,2024-11-22,ID Card Replacement,Michael Lead,6,Miss
+REQ0863,104,David Brown,HR,2024-11-14,2024-11-17,Payroll Issue,John Manager,2,Pass
+REQ0864,104,David Brown,HR,2024-11-15,2024-11-25,Access Approval,John Manager,6,Miss
+REQ0865,102,Bob Smith,HR,2024-11-15,2024-11-17,Access Approval,Sarah Supervisor,1,Pass
+REQ0866,105,Eve Wilson,HR,2024-11-16,2024-11-21,ID Card Replacement,Michael Lead,3,Pass
+REQ0867,102,Bob Smith,HR,2024-11-16,2024-11-17,Access Approval,Sarah Supervisor,0,Pass
+REQ0868,105,Eve Wilson,HR,2024-11-17,2024-11-19,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0869,105,Eve Wilson,HR,2024-11-17,2024-11-23,Access Approval,Michael Lead,5,Miss
+REQ0870,103,Charlie Davis,HR,2024-11-20,2024-11-26,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0871,103,Charlie Davis,HR,2024-11-18,2024-11-26,Payroll Issue,John Manager,6,Miss
+REQ0872,104,David Brown,HR,2024-11-18,2024-11-27,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0873,103,Charlie Davis,HR,2024-11-18,2024-11-26,Payroll Issue,John Manager,6,Miss
+REQ0874,104,David Brown,HR,2024-11-18,2024-11-24,Benefit Claim,Michael Lead,5,Miss
+REQ0875,104,David Brown,HR,2024-11-20,2024-11-26,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0876,101,Alice Johnson,HR,2024-11-20,2024-11-21,Access Approval,John Manager,1,Pass
+REQ0877,102,Bob Smith,HR,2024-11-20,2024-11-26,ID Card Replacement,Michael Lead,4,Miss
+REQ0878,102,Bob Smith,HR,2024-11-20,2024-11-29,Payroll Issue,Sarah Supervisor,7,Miss
+REQ0879,103,Charlie Davis,HR,2024-11-20,2024-11-23,Benefit Claim,John Manager,3,Pass
+REQ0880,102,Bob Smith,HR,2024-11-21,2024-11-26,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0881,104,David Brown,HR,2024-11-21,2024-12-01,Access Approval,Sarah Supervisor,7,Miss
+REQ0882,101,Alice Johnson,HR,2024-11-21,2024-11-26,Payroll Issue,Sarah Supervisor,3,Pass
+REQ0883,102,Bob Smith,HR,2024-11-21,2024-11-27,Benefit Claim,John Manager,4,Miss
+REQ0884,104,David Brown,HR,2024-11-21,2024-11-23,Benefit Claim,Michael Lead,2,Pass
+REQ0885,101,Alice Johnson,HR,2024-11-22,2024-11-26,Payroll Issue,John Manager,2,Pass
+REQ0886,103,Charlie Davis,HR,2024-11-22,2024-11-26,Access Approval,John Manager,2,Pass
+REQ0887,102,Bob Smith,HR,2024-11-22,2024-11-27,Access Approval,Sarah Supervisor,3,Pass
+REQ0888,105,Eve Wilson,HR,2024-11-22,2024-11-29,Payroll Issue,John Manager,5,Miss
+REQ0889,105,Eve Wilson,HR,2024-11-23,2024-12-02,Access Approval,John Manager,5,Miss
+REQ0890,104,David Brown,HR,2024-11-23,2024-11-24,Access Approval,John Manager,0,Pass
+REQ0891,103,Charlie Davis,HR,2024-11-23,2024-11-26,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0892,105,Eve Wilson,HR,2024-11-23,2024-12-03,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0893,105,Eve Wilson,HR,2024-11-23,2024-11-26,Access Approval,John Manager,1,Pass
+REQ0894,104,David Brown,HR,2024-11-23,2024-11-26,Access Approval,John Manager,1,Pass
+REQ0895,104,David Brown,HR,2024-11-23,2024-11-26,Benefit Claim,Michael Lead,1,Pass
+REQ0896,101,Alice Johnson,HR,2024-11-24,2024-11-30,Benefit Claim,Michael Lead,5,Miss
+REQ0897,101,Alice Johnson,HR,2024-11-21,2024-11-26,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0898,101,Alice Johnson,HR,2024-11-24,2024-12-03,Access Approval,John Manager,6,Miss
+REQ0899,101,Alice Johnson,HR,2024-11-25,2024-12-01,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0900,104,David Brown,HR,2024-11-25,2024-12-04,Payroll Issue,John Manager,7,Miss
+REQ0901,105,Eve Wilson,HR,2024-11-25,2024-11-29,ID Card Replacement,Michael Lead,4,Miss
+REQ0902,104,David Brown,HR,2024-11-26,2024-12-05,Access Approval,Sarah Supervisor,7,Miss
+REQ0903,105,Eve Wilson,HR,2024-11-26,2024-12-05,Benefit Claim,Michael Lead,7,Miss
+REQ0904,104,David Brown,HR,2024-11-26,2024-12-06,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0905,102,Bob Smith,HR,2024-11-27,2024-12-03,Benefit Claim,John Manager,4,Miss
+REQ0906,105,Eve Wilson,HR,2024-11-28,2024-11-30,Access Approval,Sarah Supervisor,2,Pass
+REQ0907,104,David Brown,HR,2024-11-28,2024-12-04,ID Card Replacement,John Manager,4,Miss
+REQ0908,103,Charlie Davis,HR,2024-11-28,2024-12-02,ID Card Replacement,John Manager,2,Pass
+REQ0909,104,David Brown,HR,2024-11-29,2024-12-04,ID Card Replacement,John Manager,3,Pass
+REQ0910,105,Eve Wilson,HR,2024-11-29,2024-12-08,Payroll Issue,Michael Lead,6,Miss
+REQ0911,104,David Brown,HR,2024-11-29,2024-12-07,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0912,103,Charlie Davis,HR,2024-11-30,2024-12-04,Access Approval,John Manager,2,Pass
+REQ0913,104,David Brown,HR,2024-12-01,2024-12-08,Benefit Claim,Michael Lead,5,Miss
+REQ0914,104,David Brown,HR,2024-12-01,2024-12-03,ID Card Replacement,Sarah Supervisor,1,Pass
+REQ0915,102,Bob Smith,HR,2024-12-01,2024-12-03,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0916,103,Charlie Davis,HR,2024-12-02,2024-12-09,Payroll Issue,John Manager,5,Miss
+REQ0917,104,David Brown,HR,2024-12-02,2024-12-09,Benefit Claim,Michael Lead,5,Miss
+REQ0918,105,Eve Wilson,HR,2024-12-03,2024-12-09,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0919,105,Eve Wilson,HR,2024-12-04,2024-12-09,Access Approval,Sarah Supervisor,3,Pass
+REQ0920,105,Eve Wilson,HR,2024-12-04,2024-12-14,ID Card Replacement,Sarah Supervisor,8,Miss
+REQ0921,104,David Brown,HR,2024-11-27,2024-12-05,Benefit Claim,John Manager,6,Miss
+REQ0922,101,Alice Johnson,HR,2024-12-04,2024-12-12,Access Approval,John Manager,6,Miss
+REQ0923,105,Eve Wilson,HR,2024-12-04,2024-12-11,Benefit Claim,Michael Lead,5,Miss
+REQ0924,102,Bob Smith,HR,2024-12-04,2024-12-11,Access Approval,John Manager,5,Miss
+REQ0925,104,David Brown,HR,2024-12-05,2024-12-08,Benefit Claim,Michael Lead,2,Pass
+REQ0926,105,Eve Wilson,HR,2024-12-06,2024-12-16,ID Card Replacement,John Manager,6,Miss
+REQ0927,103,Charlie Davis,HR,2024-12-06,2024-12-10,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0928,105,Eve Wilson,HR,2024-12-06,2024-12-13,Access Approval,Michael Lead,5,Miss
+REQ0929,102,Bob Smith,HR,2024-12-06,2024-12-11,Benefit Claim,Michael Lead,3,Pass
+REQ0930,102,Bob Smith,HR,2024-12-06,2024-12-08,Payroll Issue,John Manager,1,Pass
+REQ0931,105,Eve Wilson,HR,2024-12-06,2024-12-12,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0932,102,Bob Smith,HR,2024-12-06,2024-12-14,Access Approval,Michael Lead,6,Miss
+REQ0933,101,Alice Johnson,HR,2024-12-07,2024-12-11,Benefit Claim,John Manager,2,Pass
+REQ0934,102,Bob Smith,HR,2024-12-08,2024-12-13,Payroll Issue,Michael Lead,4,Miss
+REQ0935,103,Charlie Davis,HR,2024-12-08,2024-12-14,Payroll Issue,John Manager,5,Miss
+REQ0936,101,Alice Johnson,HR,2024-12-08,2024-12-11,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0937,105,Eve Wilson,HR,2024-12-08,2024-12-15,Access Approval,John Manager,5,Miss
+REQ0938,104,David Brown,HR,2024-12-09,2024-12-15,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0939,104,David Brown,HR,2024-12-09,2024-12-15,Benefit Claim,John Manager,5,Miss
+REQ0940,103,Charlie Davis,HR,2024-12-09,2024-12-17,ID Card Replacement,Michael Lead,6,Miss
+REQ0941,104,David Brown,HR,2024-12-09,2024-12-15,Benefit Claim,Michael Lead,5,Miss
+REQ0942,105,Eve Wilson,HR,2024-12-09,2024-12-19,Payroll Issue,Michael Lead,8,Miss
+REQ0943,104,David Brown,HR,2024-12-09,2024-12-11,Payroll Issue,John Manager,2,Pass
+REQ0944,105,Eve Wilson,HR,2024-12-10,2024-12-14,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0945,102,Bob Smith,HR,2024-12-10,2024-12-15,Payroll Issue,Michael Lead,4,Miss
+REQ0946,105,Eve Wilson,HR,2024-12-10,2024-12-20,Access Approval,Michael Lead,8,Miss
+REQ0947,103,Charlie Davis,HR,2024-12-10,2024-12-17,ID Card Replacement,John Manager,5,Miss
+REQ0948,102,Bob Smith,HR,2024-12-10,2024-12-16,Access Approval,John Manager,4,Miss
+REQ0949,103,Charlie Davis,HR,2024-12-11,2024-12-17,Benefit Claim,Sarah Supervisor,4,Miss
+REQ0950,103,Charlie Davis,HR,2024-12-11,2024-12-16,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0951,105,Eve Wilson,HR,2024-12-12,2024-12-17,Benefit Claim,Michael Lead,3,Pass
+REQ0952,103,Charlie Davis,HR,2024-12-12,2024-12-20,Benefit Claim,John Manager,6,Miss
+REQ0953,104,David Brown,HR,2024-12-12,2024-12-19,Benefit Claim,Michael Lead,5,Miss
+REQ0954,103,Charlie Davis,HR,2024-12-09,2024-12-16,Access Approval,John Manager,5,Miss
+REQ0955,102,Bob Smith,HR,2024-12-13,2024-12-22,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0956,104,David Brown,HR,2024-12-14,2024-12-24,Payroll Issue,John Manager,6,Miss
+REQ0957,105,Eve Wilson,HR,2024-12-14,2024-12-22,Benefit Claim,Michael Lead,5,Miss
+REQ0958,103,Charlie Davis,HR,2024-12-14,2024-12-22,Payroll Issue,Sarah Supervisor,5,Miss
+REQ0959,102,Bob Smith,HR,2024-12-14,2024-12-22,Payroll Issue,Michael Lead,5,Miss
+REQ0960,103,Charlie Davis,HR,2024-12-15,2024-12-17,Access Approval,Sarah Supervisor,1,Pass
+REQ0961,104,David Brown,HR,2024-12-15,2024-12-20,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0962,101,Alice Johnson,HR,2024-12-15,2024-12-17,Payroll Issue,Sarah Supervisor,1,Pass
+REQ0963,102,Bob Smith,HR,2024-12-15,2024-12-25,Access Approval,John Manager,7,Miss
+REQ0964,101,Alice Johnson,HR,2024-12-15,2024-12-18,Benefit Claim,Sarah Supervisor,2,Pass
+REQ0965,105,Eve Wilson,HR,2024-12-16,2024-12-25,Benefit Claim,Michael Lead,7,Miss
+REQ0966,101,Alice Johnson,HR,2024-12-16,2024-12-24,Benefit Claim,Sarah Supervisor,6,Miss
+REQ0967,101,Alice Johnson,HR,2024-12-16,2024-12-22,Access Approval,Michael Lead,5,Miss
+REQ0968,102,Bob Smith,HR,2024-12-17,2024-12-26,Access Approval,Michael Lead,7,Miss
+REQ0969,102,Bob Smith,HR,2024-12-18,2024-12-23,ID Card Replacement,Michael Lead,3,Pass
+REQ0970,103,Charlie Davis,HR,2024-12-18,2024-12-23,Benefit Claim,Sarah Supervisor,3,Pass
+REQ0971,105,Eve Wilson,HR,2024-12-19,2024-12-29,Benefit Claim,Sarah Supervisor,7,Miss
+REQ0972,101,Alice Johnson,HR,2024-12-19,2024-12-25,Payroll Issue,Michael Lead,4,Miss
+REQ0973,104,David Brown,HR,2024-12-20,2024-12-29,Access Approval,Michael Lead,6,Miss
+REQ0974,104,David Brown,HR,2024-12-20,2024-12-26,Access Approval,Michael Lead,4,Miss
+REQ0975,102,Bob Smith,HR,2024-12-20,2024-12-22,Benefit Claim,Sarah Supervisor,1,Pass
+REQ0976,103,Charlie Davis,HR,2024-12-21,2024-12-25,Payroll Issue,Sarah Supervisor,2,Pass
+REQ0977,103,Charlie Davis,HR,2024-12-22,2024-12-23,Access Approval,Sarah Supervisor,0,Pass
+REQ0978,102,Bob Smith,HR,2024-12-22,2024-12-26,Access Approval,John Manager,3,Pass
+REQ0979,105,Eve Wilson,HR,2024-12-23,2025-01-02,ID Card Replacement,Sarah Supervisor,8,Miss
+REQ0980,102,Bob Smith,HR,2024-12-23,2024-12-26,Benefit Claim,Michael Lead,3,Pass
+REQ0981,105,Eve Wilson,HR,2024-12-24,2024-12-27,Benefit Claim,John Manager,3,Pass
+REQ0982,102,Bob Smith,HR,2024-12-24,2024-12-31,Benefit Claim,Sarah Supervisor,5,Miss
+REQ0983,102,Bob Smith,HR,2024-12-24,2024-12-27,Access Approval,Sarah Supervisor,3,Pass
+REQ0984,101,Alice Johnson,HR,2024-12-24,2024-12-29,ID Card Replacement,Sarah Supervisor,4,Miss
+REQ0985,105,Eve Wilson,HR,2024-12-25,2024-12-30,ID Card Replacement,John Manager,3,Pass
+REQ0986,101,Alice Johnson,HR,2024-12-25,2024-12-31,ID Card Replacement,John Manager,4,Miss
+REQ0987,105,Eve Wilson,HR,2024-12-26,2024-12-31,Payroll Issue,John Manager,3,Pass
+REQ0988,101,Alice Johnson,HR,2024-12-27,2025-01-01,Payroll Issue,John Manager,3,Pass
+REQ0989,105,Eve Wilson,HR,2024-12-27,2025-01-04,Access Approval,John Manager,6,Miss
+REQ0990,102,Bob Smith,HR,2024-12-27,2025-01-01,Payroll Issue,John Manager,3,Pass
+REQ0991,102,Bob Smith,HR,2024-12-27,2025-01-02,Payroll Issue,Sarah Supervisor,4,Miss
+REQ0992,105,Eve Wilson,HR,2024-12-27,2025-01-01,ID Card Replacement,Sarah Supervisor,3,Pass
+REQ0993,102,Bob Smith,HR,2024-12-27,2025-01-05,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0994,103,Charlie Davis,HR,2024-12-27,2025-01-04,Payroll Issue,Sarah Supervisor,6,Miss
+REQ0995,105,Eve Wilson,HR,2024-12-29,2025-01-07,ID Card Replacement,Sarah Supervisor,6,Miss
+REQ0996,102,Bob Smith,HR,2024-12-29,2025-01-09,Benefit Claim,Sarah Supervisor,8,Miss
+REQ0997,103,Charlie Davis,HR,2024-12-30,2025-01-05,ID Card Replacement,Michael Lead,5,Miss
+REQ0998,102,Bob Smith,HR,2024-12-30,2025-01-03,Benefit Claim,Michael Lead,4,Miss
+REQ0999,103,Charlie Davis,HR,2024-12-31,2025-01-07,Access Approval,John Manager,5,Miss
+REQ1000,103,Charlie Davis,HR,2024-12-31,2025-01-05,Benefit Claim,John Manager,4,Miss
